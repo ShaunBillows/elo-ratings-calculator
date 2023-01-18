@@ -1,6 +1,7 @@
 import pandas as pd
+import logging
 
-def elo_rating(home_score, away_score, home_elo, away_elo):
+def calculate_individual_elo_ratings(home_score, away_score, home_elo, away_elo):
     """
     Updates the Elo ratings of the home and away teams based on the outcome of the game.
     
@@ -40,7 +41,7 @@ def elo_rating(home_score, away_score, home_elo, away_elo):
         away_new_elo = away_elo + k * (0.5 - away_exp)
     return home_new_elo, away_new_elo
 
-def calculate_elo_ratings(csv_file:str, output_file: str, weeks: int = None):
+def calculate_elo_ratings_for_one_week(csv_file:str, output_file: str, weeks: int = None):
     """
     Calculates the Elo ratings for all teams in a premier league season, based on the outcome of the games. 
     The function takes a csv file containing match information as an input, and outputs the Elo ratings as a csv file.
@@ -84,9 +85,20 @@ def calculate_elo_ratings(csv_file:str, output_file: str, weeks: int = None):
         home_elo = elo_ratings[home_team]
         away_elo = elo_ratings[away_team]
         # Update Elo ratings for both teams
-        home_new_elo, away_new_elo = elo_rating(home_score, away_score, home_elo, away_elo)
+        home_new_elo, away_new_elo = calculate_individual_elo_ratings(home_score, away_score, home_elo, away_elo)
         elo_ratings[home_team] = home_new_elo
         elo_ratings[away_team] = away_new_elo
     # Save the results as a csv file
     df = pd.DataFrame(list(elo_ratings.items()), columns=['Team', 'Rating'])
     df.to_csv(output_file, index=False)
+
+def calculate_elo_ratings_for_each_week(csv_file:str, output_file:str, nb_weeks_in_season:int):
+    try:
+        for week in range(nb_weeks_in_season):
+            # call the calculate_elo_ratings function for each week
+            calculate_elo_ratings_for_one_week(csv_file=csv_file, output_file=f'{output_file}/week-{week}.csv', weeks=week)
+            logging.info(f'Elo ratings for week {week} have been calculated and saved to {output_file}/week-{week}.csv')
+    except FileNotFoundError as e:
+        logging.error(f'File not found: {e}')
+    except Exception as e:
+        logging.error(f'An error occurred: {e}')

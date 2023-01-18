@@ -1,6 +1,22 @@
-from elo_ratings_calculator import calculate_elo_ratings
+import logging
+from elo_ratings_calculator.elo_ratings_calculator import calculate_elo_ratings_for_one_week, calculate_elo_ratings_for_each_week
 
-calculate_elo_ratings(csv_file='./processed-data/19-20.csv', output_file='./elo-ratings/19-20-full-season.csv')
-calculate_elo_ratings(csv_file='./processed-data/19-20.csv', output_file='./elo-ratings/19-20-week-35.csv', weeks=35)
-calculate_elo_ratings(csv_file='./processed-data/19-20.csv', output_file='./elo-ratings/19-20-week-30.csv', weeks=30)
-calculate_elo_ratings(csv_file='./processed-data/19-20.csv', output_file='./elo-ratings/19-20-week-25.csv', weeks=25)
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+
+    # Set up input and output file paths
+    csv_file_20_21 = './processed-data/20-21.csv'
+    output_file_20_21 = './elo-ratings/20-21'
+    csv_file_19_20 = './processed-data/19-20.csv'
+    output_file_19_20 = './elo-ratings/19-20'
+
+    # Number of weeks in a season
+    nb_weeks_in_season = 39
+    
+    # Calculate Elo ratings for 20-21 season
+    calculate_elo_ratings_for_each_week(csv_file_20_21, output_file_20_21, nb_weeks_in_season)
+    logging.info(f'Elo ratings for the 20-21 season have been calculated and saved to {output_file_20_21}')
+
+    # Calculate Elo ratings for 19-20 season
+    calculate_elo_ratings_for_each_week(csv_file_19_20, output_file_19_20, nb_weeks_in_season)
+    logging.info(f'Elo ratings for the 19-20 season have been calculated and saved to {output_file_19_20}')

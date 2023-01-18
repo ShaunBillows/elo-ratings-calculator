@@ -3,27 +3,27 @@ This script processes all the JSON files in a given folder containing raw match 
 
 Args:
 folder_path (str): The path to the folder containing the JSON files.
-callback_func (function): The function to process the data from each JSON file.
+process_json_callback (function): The function to process the data from each JSON file.
 
 """
 import os
 import pandas as pd
 
-def process_json_files(folder_path, callback_func):
+def process_json_files(folder_path, process_json_callback):
     """
     Iterates through all the JSON files in a given folder and calls a callback function to process the data.
     Args:
         folder_path (str): The path to the folder containing the JSON files.
-        callback_func (function): The function to process the data from each JSON file.
+        process_json_callback (function): The function to process the data from each JSON file.
     """
     for file_name in sorted(os.listdir(folder_path)):
         if file_name.endswith(".json"):
             file_path = os.path.join(folder_path, file_name)
             with open(file_path, "r") as f:
                 data = pd.read_json(file_path)
-                callback_func(data)
+                process_json_callback(data)
 
-def callback_func(data):
+def process_json_callback(data):
     """
     A callback function that processes the data from each JSON file and appends the results to a list.
     The data is then used to create a CSV file
@@ -58,5 +58,5 @@ def save_to_csv(data, file_name):
     df.to_csv(file_name, index=False)
 
 results = []
-process_json_files("./raw-data/19-20", callback_func)
-save_to_csv(results, './processed-data/19-20.csv')
+process_json_files("./raw-data/20-21", process_json_callback)
+save_to_csv(results, './processed-data/20-21.csv')
