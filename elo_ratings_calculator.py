@@ -72,7 +72,7 @@ def calculate_elo_ratings(csv_file:str, output_file: str, weeks: int = None):
         matches_considered = matches[:matches_to_consider]
     # Initialize Elo ratings for all 20 teams
     elo_ratings = {}
-    for i in range(10):
+    for i in range(nb_games_per_week):
         elo_ratings[matches[i]['home-name']] = 1000
         elo_ratings[matches[i]['away-name']] = 1000
     # Iterate through each game

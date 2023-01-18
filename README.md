@@ -2,7 +2,7 @@
 
 This package allows you to calculate Elo ratings for a football league using match data. The Elo rating system is a method for calculating the relative skill levels of players in two-player games such as chess, Go, and football. This package can be used to predict the outcome of matches between teams, and track the performance of teams over the course of a season.
 
-**Note**: The match data also contains the average and max odds for each match based on a range of bookies odds. The project will be extended to use these to test and optimize the algorithm in order to create a betting system application.
+**Note**: The match data also contains the average and max odds for each match based on a range of bookmakers odds. The project will be extended to use these to test and optimize the algorithm in order to create a betting system app.
 
 ## Features
 
@@ -11,10 +11,6 @@ This package allows you to calculate Elo ratings for a football league using mat
 - User can specify the number of weeks into the season to calculate the Elo ratings up to.
 - Can also import data from multiple seasons
 - Save the results as a csv file
-
-## Requirements
-
-- pandas
 
 ## Requirements
 
