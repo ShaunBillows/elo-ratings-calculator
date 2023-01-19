@@ -58,5 +58,5 @@ def save_to_csv(data, file_name):
     df.to_csv(file_name, index=False)
 
 results = []
-process_json_files("./raw-data/21-22", process_json_callback)
-save_to_csv(results, './processed-data/21-22.csv')
+process_json_files("./raw-data/20-21", process_json_callback)
+save_to_csv(results, './processed-data/20-21.csv')
