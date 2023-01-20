@@ -8,6 +8,9 @@ process_json_callback (function): The function to process the data from each JSO
 """
 import os
 import pandas as pd
+import logging
+
+logging.basicConfig(level=logging.INFO) # not can delete when moving func to main.py
 
 def process_json_files(folder_path, process_json_callback):
     """
@@ -19,9 +22,12 @@ def process_json_files(folder_path, process_json_callback):
     for file_name in sorted(os.listdir(folder_path)):
         if file_name.endswith(".json"):
             file_path = os.path.join(folder_path, file_name)
-            with open(file_path, "r") as f:
-                data = pd.read_json(file_path)
-                process_json_callback(data)
+            try:
+                with open(file_path, "r") as f:
+                    data = pd.read_json(file_path)
+                    process_json_callback(data)
+            except Exception as e:
+                logging.error(f"An error occurred while reading file {file_name}: {str(e)}")
 
 def process_json_callback(data):
     """
@@ -31,21 +37,34 @@ def process_json_callback(data):
     data (dict): The data from each JSON file.
     """
     match_results = data['d']['rows']
-    for result in match_results:
-        results.append({
-            'home-name': result['home-name'],
-            'away-name': result['away-name'],
-            'home-result': result['homeResult'],
-            'away-result': result['awayResult'],
-            'home-win': True if result['home-winner'] == 'win' else False,
-            'away-win': True if result['away-winner'] == 'win' else False,
-            'home-odds-avg': round(result['odds'][0]['avgOdds'] - 1,2),
-            'home-odds-max': round(result['odds'][0]['maxOdds'] - 1,2),
-            'draw-odds-avg': round(result['odds'][1]['avgOdds'] - 1,2),
-            'draw-odds-max': round(result['odds'][1]['maxOdds'] - 1,2),
-            'away-odds-avg': round(result['odds'][2]['avgOdds'] - 1,2),
-            'away-odds-max': round(result['odds'][2]['maxOdds'] - 1,2),
-        })
+    match_results.reverse()
+    for i, result in enumerate(match_results):
+        if result['result'] == 'postp.':
+            logging.info(f"Game between {result['home-name']} and {result['away-name']} was postponed")
+            continue # Skip this game as it is postponed
+        else:
+            if 'result' not in result.keys():
+                logging.warning(f"Game between {result['home-name']} and {result['away-name']} is missing the result key")
+                continue # make sure the item has a results key
+        try:
+            results.append({
+                'home-name': result['home-name'],
+                'home-name': result['home-name'],
+                'away-name': result['away-name'],
+                'home-result': result['homeResult'],
+                'away-result': result['awayResult'],
+                'home-win': True if result['home-winner'] == 'win' else False,
+                'away-win': True if result['away-winner'] == 'win' else False,
+                'home-odds-avg': round(result['odds'][0]['avgOdds'] - 1,2),
+                'home-odds-max': round(result['odds'][0]['maxOdds'] - 1,2),
+                'draw-odds-avg': round(result['odds'][1]['avgOdds'] - 1,2),
+                'draw-odds-max': round(result['odds'][1]['maxOdds'] - 1,2),
+                'away-odds-avg': round(result['odds'][2]['avgOdds'] - 1,2),
+                'away-odds-max': round(result['odds'][2]['maxOdds'] - 1,2),
+                'date-start-timestamp': result['date-start-timestamp']
+            })
+        except KeyError as e:
+            logging.error(f"An error occurred while processing game {i}: {str(e)}")
 
 def save_to_csv(data, file_name):
     """
@@ -54,9 +73,35 @@ def save_to_csv(data, file_name):
     data (list): The processed data.
     file_name (str): The name of the CSV file to be created.
     """
-    df = pd.DataFrame(data)
-    df.to_csv(file_name, index=False)
+    try:
+        df = pd.DataFrame(data)
+        df.to_csv(file_name, index=False)
+    except IOError as e:
+        logging.error(f"An error occurred while creating the CSV file: {str(e)}")
 
-results = []
-process_json_files("./raw-data/20-21", process_json_callback)
-save_to_csv(results, './processed-data/20-21.csv')
+
+# def generate_match_results_csv(folder_path, csv_file):
+#     results = []
+#     process_json_files(folder_path, process_json_callback)
+#     save_to_csv(results, csv_file)
+
+# # 19-20
+# results = []
+# process_json_files("./raw-data/19-20", process_json_callback)
+# save_to_csv(results, './processed-data/19-20.csv')
+
+
+# # 20-21
+# results = []
+# process_json_files("./raw-data/20-21", process_json_callback)
+# save_to_csv(results, './processed-data/20-21.csv')
+
+# # 21-22
+# results = []
+# process_json_files("./raw-data/21-22", process_json_callback)
+# save_to_csv(results, './processed-data/21-22.csv')
+
+# 22-23
+# results = []
+# process_json_files("./raw-data/22-23", process_json_callback)
+# save_to_csv(results, './processed-data/22-23.csv')

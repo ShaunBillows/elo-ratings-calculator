@@ -1,381 +1,381 @@
-home-name,away-name,home-result,away-result,home-win,away-win,home-odds-avg,home-odds-max,draw-odds-avg,draw-odds-max,away-odds-avg,away-odds-max
-Brentford,Arsenal,2,0,True,False,2.97,3.19,2.29,2.42,1.07,1.13
-Manchester Utd,Leeds,5,1,True,False,0.62,0.68,3.27,3.6,4.46,5.0
-Watford,Aston Villa,3,2,True,False,2.47,2.73,2.31,2.45,1.23,1.31
-Leicester,Wolves,1,0,True,False,0.72,0.77,2.8,3.13,4.12,4.4
-Everton,Southampton,3,1,True,False,1.04,1.12,2.4,2.47,2.94,3.1
-Chelsea,Crystal Palace,3,0,True,False,0.31,0.36,4.39,5.2,10.04,12.0
-Burnley,Brighton,1,2,False,True,2.21,2.35,2.12,2.19,1.46,1.53
-Norwich,Liverpool,0,3,False,True,6.02,7.5,4.09,5.0,0.44,0.5
-Newcastle,West Ham,2,4,False,True,2.37,2.62,2.51,2.66,1.2,1.29
-Tottenham,Manchester City,1,0,True,False,4.95,5.53,3.12,3.3,0.61,0.65
-Liverpool,Burnley,2,0,True,False,0.25,0.26,5.47,6.0,11.02,12.5
-Manchester City,Norwich,5,0,True,False,0.13,0.15,8.85,10.0,22.44,25.0
-Leeds,Everton,2,2,False,False,1.12,1.19,2.5,2.6,2.58,2.67
-Crystal Palace,Brentford,0,0,False,False,1.66,1.75,2.17,2.27,1.9,1.98
-Aston Villa,Newcastle,2,0,True,False,0.83,0.87,2.89,3.1,3.29,3.42
-Brighton,Watford,2,0,True,False,0.74,0.8,2.59,2.69,4.55,5.0
-Wolves,Tottenham,0,1,False,True,1.94,2.17,2.09,2.19,1.68,1.79
-Southampton,Manchester Utd,1,1,False,False,4.36,4.79,3.21,3.45,0.64,0.7
-Arsenal,Chelsea,0,2,False,True,3.61,3.98,2.54,2.64,0.87,0.93
-West Ham,Leicester,4,1,True,False,1.46,1.52,2.5,2.7,1.91,2.02
-Manchester City,Arsenal,5,0,True,False,0.34,0.36,4.28,4.5,8.91,10.5
-West Ham,Crystal Palace,2,2,False,False,0.56,0.59,3.09,3.33,5.54,6.0
-Norwich,Leicester,1,2,False,True,3.21,3.62,2.63,2.74,0.91,0.96
-Newcastle,Southampton,2,2,False,False,1.44,1.51,2.57,2.74,1.89,1.96
-Brighton,Everton,0,2,False,True,1.32,1.39,2.25,2.34,2.37,2.46
-Aston Villa,Brentford,1,1,False,False,1.08,1.15,2.32,2.43,2.93,3.1
-Liverpool,Chelsea,1,1,False,False,1.42,1.55,2.37,2.63,2.08,2.26
-Tottenham,Watford,1,0,True,False,0.46,0.51,3.44,3.65,6.82,8.34
-Burnley,Leeds,1,1,False,False,2.3,2.52,2.55,2.65,1.22,1.27
-Wolves,Manchester Utd,0,1,False,True,3.95,4.25,2.72,2.84,0.77,0.83
-Crystal Palace,Tottenham,3,0,True,False,3.04,3.3,2.34,2.5,1.05,1.13
-Watford,Wolves,0,2,False,True,2.61,3.0,2.2,2.29,1.24,1.35
-Southampton,West Ham,0,0,False,False,2.08,2.3,2.53,2.66,1.34,1.46
-Manchester Utd,Newcastle,4,1,True,False,0.19,0.21,6.42,7.0,14.77,16.1
-Leicester,Manchester City,0,1,False,True,4.66,5.0,3.09,3.3,0.63,0.68
-Brentford,Brighton,0,1,False,True,2.0,2.14,2.06,2.24,1.67,1.88
-Arsenal,Norwich,1,0,True,False,0.42,0.48,3.94,4.13,6.76,7.83
-Chelsea,Aston Villa,3,0,True,False,0.34,0.36,4.29,4.5,8.74,9.9
-Leeds,Liverpool,0,3,False,True,3.84,4.15,3.34,3.6,0.67,0.72
-Everton,Burnley,3,1,True,False,0.77,0.8,2.55,2.74,4.31,4.74
-Newcastle,Leeds,1,1,False,False,2.11,2.25,2.68,2.76,1.26,1.3
-Wolves,Brentford,0,2,False,True,0.83,0.88,2.34,2.42,4.17,4.61
-Norwich,Watford,1,3,False,True,1.28,1.41,2.33,2.45,2.37,2.5
-Manchester City,Southampton,0,0,False,False,0.17,0.2,7.17,8.0,16.23,20.0
-Liverpool,Crystal Palace,3,0,True,False,0.27,0.31,5.22,5.9,10.55,13.0
-Burnley,Arsenal,0,1,False,True,2.81,3.14,2.65,2.79,1.0,1.05
-Aston Villa,Everton,3,0,True,False,1.21,1.41,2.37,2.5,2.47,2.65
-West Ham,Manchester Utd,1,2,False,True,3.43,3.63,2.8,2.9,0.83,0.89
-Brighton,Leicester,2,1,True,False,1.53,1.68,2.21,2.27,2.03,2.16
-Tottenham,Chelsea,0,3,False,True,3.46,4.2,2.49,2.93,0.91,1.06
-Manchester Utd,Aston Villa,0,1,False,True,0.4,0.44,4.02,4.2,7.0,7.83
-Chelsea,Manchester City,0,1,False,True,1.91,2.04,2.19,2.3,1.64,1.73
-Watford,Newcastle,1,1,False,False,1.13,1.17,2.51,2.6,2.54,2.6
-Leicester,Burnley,2,2,False,False,0.68,0.73,2.88,2.96,4.43,4.81
-Leeds,West Ham,1,2,False,True,1.99,2.19,2.6,2.71,1.35,1.45
-Everton,Norwich,2,0,True,False,0.7,0.74,2.75,2.82,4.55,4.8
-Brentford,Liverpool,3,3,False,False,6.7,7.3,3.94,4.25,0.42,0.47
-Southampton,Wolves,0,1,False,True,1.21,1.3,2.3,2.42,2.55,2.78
-Arsenal,Tottenham,3,1,True,False,1.21,1.32,2.39,2.5,2.49,2.74
-Crystal Palace,Brighton,1,1,False,False,1.9,1.99,2.1,2.16,1.7,1.75
-Manchester Utd,Everton,1,1,False,False,0.54,0.6,3.26,3.5,5.82,6.6
-Wolves,Newcastle,2,1,True,False,0.75,0.83,2.83,3.0,3.94,4.3
-Leeds,Watford,1,0,True,False,0.76,0.8,2.95,3.1,3.64,3.9
-Chelsea,Southampton,3,1,True,False,0.41,0.46,3.81,4.1,7.38,8.2
-Burnley,Norwich,0,0,False,False,0.95,1.02,2.6,2.72,3.05,3.2
-Brighton,Arsenal,0,0,False,False,2.24,2.52,2.28,2.4,1.37,1.52
-West Ham,Brentford,1,2,False,True,0.78,0.88,2.73,2.85,3.82,4.13
-Tottenham,Aston Villa,2,1,True,False,1.1,1.17,2.43,2.5,2.71,3.06
-Crystal Palace,Leicester,2,2,False,False,1.84,1.9,2.28,2.37,1.64,1.75
-Liverpool,Manchester City,2,2,False,False,2.02,2.2,2.61,2.97,1.35,1.45
-Watford,Liverpool,0,5,False,True,8.0,8.89,4.56,4.88,0.34,0.36
-Southampton,Leeds,1,0,True,False,1.21,1.43,2.58,2.72,2.31,2.55
-Norwich,Brighton,0,0,False,False,2.98,3.25,2.47,2.69,1.02,1.17
-Manchester City,Burnley,2,0,True,False,0.14,0.16,8.26,9.0,20.4,25.0
-Leicester,Manchester Utd,4,2,True,False,2.66,2.9,2.78,2.97,1.02,1.14
-Aston Villa,Wolves,2,3,False,True,1.16,1.27,2.24,2.38,2.8,3.1
-Brentford,Chelsea,0,1,False,True,4.96,5.7,2.86,2.99,0.64,0.7
-Everton,West Ham,0,1,False,True,1.76,1.91,2.31,2.52,1.71,1.99
-Newcastle,Tottenham,2,3,False,True,2.61,2.9,2.63,2.71,1.07,1.13
-Arsenal,Crystal Palace,2,2,False,False,0.62,0.66,2.99,3.17,4.94,5.59
-Arsenal,Aston Villa,3,1,True,False,0.94,1.04,2.7,2.85,3.04,3.55
-Chelsea,Norwich,7,0,True,False,0.2,0.25,6.26,8.6,17.29,28.0
-Southampton,Burnley,2,2,False,False,0.96,1.09,2.65,2.8,2.98,3.39
-Leeds,Wolves,1,1,False,False,1.4,1.64,2.47,2.76,2.05,2.23
-Everton,Watford,2,5,False,True,0.73,0.84,2.85,3.5,4.15,5.0
-Crystal Palace,Newcastle,1,1,False,False,0.93,1.0,2.62,2.8,3.16,3.62
-Brighton,Manchester City,1,4,False,True,7.09,8.67,3.86,4.28,0.42,0.48
-West Ham,Tottenham,1,0,True,False,1.33,1.43,2.53,2.65,2.11,2.29
-Brentford,Leicester,1,2,False,True,1.84,2.05,2.41,2.56,1.57,1.7
-Manchester Utd,Liverpool,0,5,False,True,1.9,2.13,2.68,2.93,1.42,1.64
-Leicester,Arsenal,0,2,False,True,1.55,1.69,2.51,2.6,1.78,1.96
-Watford,Southampton,0,1,False,True,2.27,2.62,2.46,2.58,1.25,1.33
-Newcastle,Chelsea,0,3,False,True,6.85,7.64,3.58,3.91,0.45,0.47
-Manchester City,Crystal Palace,0,2,False,True,0.15,0.16,7.72,8.71,18.67,21.0
-Liverpool,Brighton,2,2,False,False,0.27,0.3,5.13,5.75,9.8,11.0
-Burnley,Brentford,3,1,True,False,1.63,1.74,2.19,2.35,1.9,2.0
-Tottenham,Manchester Utd,0,3,False,True,2.12,2.34,2.62,2.75,1.27,1.35
-Norwich,Leeds,1,2,False,True,2.65,2.83,2.66,2.85,1.02,1.09
-Aston Villa,West Ham,1,4,False,True,2.0,2.22,2.54,2.69,1.37,1.52
-Wolves,Everton,2,1,True,False,1.22,1.3,2.23,2.49,2.6,2.8
-Southampton,Aston Villa,1,0,True,False,1.06,1.17,2.65,2.85,2.63,3.0
-Manchester Utd,Manchester City,0,2,False,True,3.68,4.0,3.15,3.59,0.72,0.75
-Crystal Palace,Wolves,2,0,True,False,1.35,1.42,2.12,2.2,2.44,2.55
-Chelsea,Burnley,1,1,False,False,0.27,0.29,4.91,5.21,12.15,13.0
-Brentford,Norwich,1,2,False,True,0.65,0.73,3.0,3.2,4.62,5.13
-Brighton,Newcastle,1,1,False,False,0.6,0.65,3.16,3.63,5.0,5.25
-Leeds,Leicester,1,1,False,False,1.67,1.88,2.48,2.57,1.68,1.76
-Everton,Tottenham,0,0,False,False,2.45,2.77,2.31,2.37,1.25,1.32
-Arsenal,Watford,1,0,True,False,0.44,0.48,3.81,4.01,6.42,7.0
-West Ham,Liverpool,3,2,True,False,3.51,3.66,3.2,3.4,0.73,0.78
-Leicester,Chelsea,0,3,False,True,3.96,4.12,2.76,2.86,0.76,0.79
-Wolves,West Ham,1,0,True,False,2.17,2.4,2.27,2.38,1.4,1.46
-Watford,Manchester Utd,4,1,True,False,5.45,6.23,3.63,3.8,0.5,0.55
-Norwich,Southampton,2,1,True,False,2.58,2.91,2.47,2.6,1.13,1.21
-Newcastle,Brentford,3,3,False,False,1.47,1.6,2.44,2.78,1.93,2.04
-Burnley,Crystal Palace,3,3,False,False,1.84,1.94,2.2,2.54,1.69,1.8
-Aston Villa,Brighton,2,0,True,False,1.46,1.57,2.3,2.38,2.06,2.23
-Liverpool,Arsenal,4,0,True,False,0.51,0.57,3.78,4.2,5.09,5.55
-Manchester City,Everton,3,0,True,False,0.21,0.23,6.05,6.6,14.39,17.25
-Tottenham,Leeds,2,1,True,False,0.61,0.65,3.08,3.3,4.82,5.59
-Arsenal,Newcastle,2,0,True,False,0.51,0.54,3.57,3.7,5.38,5.75
-Norwich,Wolves,0,0,False,False,2.63,2.85,2.34,2.43,1.17,1.24
-Liverpool,Southampton,4,0,True,False,0.26,0.3,5.46,5.8,10.77,12.0
-Crystal Palace,Aston Villa,1,2,False,True,1.3,1.38,2.29,2.57,2.31,2.43
-Brighton,Leeds,0,0,False,False,1.17,1.25,2.36,2.62,2.52,2.68
-Manchester City,West Ham,2,1,True,False,0.27,0.31,5.33,5.9,10.14,11.0
-Leicester,Watford,4,2,True,False,0.7,0.76,2.88,3.05,4.2,4.81
-Brentford,Everton,1,0,True,False,1.24,1.31,2.26,2.35,2.51,2.64
-Chelsea,Manchester Utd,1,1,False,False,0.56,0.59,3.21,3.36,5.46,6.16
-Newcastle,Norwich,1,1,False,False,1.07,1.15,2.52,2.6,2.7,3.12
-Leeds,Crystal Palace,1,0,True,False,1.25,1.36,2.36,2.48,2.4,2.55
-Wolves,Burnley,0,0,False,False,0.96,1.05,2.37,2.5,3.36,3.94
-West Ham,Brighton,1,1,False,False,0.99,1.05,2.44,2.65,3.12,3.49
-Watford,Chelsea,1,2,False,True,9.01,10.04,4.42,4.63,0.32,0.35
-Southampton,Leicester,2,2,False,False,1.35,1.42,2.47,2.57,2.1,2.25
-Everton,Liverpool,1,4,False,True,7.57,8.3,4.2,4.7,0.38,0.41
-Aston Villa,Manchester City,1,2,False,True,6.54,7.0,3.63,3.8,0.45,0.48
-Tottenham,Brentford,2,0,True,False,0.65,0.69,2.96,3.2,4.54,5.06
-Manchester Utd,Arsenal,3,2,True,False,1.07,1.18,2.65,2.82,2.59,2.85
-West Ham,Chelsea,3,2,True,False,3.87,4.19,2.7,2.81,0.79,0.84
-Wolves,Liverpool,0,1,False,True,7.42,8.6,4.0,4.25,0.39,0.44
-Southampton,Brighton,1,1,False,False,1.55,1.68,2.18,2.41,2.03,2.35
-Newcastle,Burnley,1,0,True,False,1.35,1.46,2.46,2.53,2.1,2.23
-Watford,Manchester City,1,3,False,True,12.47,15.0,6.14,7.05,0.21,0.23
-Tottenham,Norwich,3,0,True,False,0.46,0.5,3.53,3.73,6.48,7.0
-Manchester Utd,Crystal Palace,1,0,True,False,0.52,0.54,3.45,3.6,5.48,6.13
-Leeds,Brentford,2,2,False,False,0.85,0.92,2.54,2.64,3.69,3.95
-Aston Villa,Leicester,2,1,True,False,1.25,1.4,2.42,2.5,2.34,2.51
-Everton,Arsenal,2,1,True,False,2.56,2.95,2.49,2.64,1.15,1.38
-Brentford,Watford,2,1,True,False,1.48,1.63,2.37,2.65,1.99,2.21
-Manchester City,Wolves,1,0,True,False,0.17,0.2,6.94,7.52,18.62,21.0
-Liverpool,Aston Villa,1,0,True,False,0.24,0.27,5.67,6.3,10.98,12.0
-Chelsea,Leeds,3,2,True,False,0.24,0.3,5.68,6.63,11.88,13.75
-Arsenal,Southampton,3,0,True,False,0.74,0.81,2.95,3.15,3.79,4.2
-Norwich,Manchester Utd,0,1,False,True,6.39,6.76,3.91,4.11,0.44,0.45
-Leicester,Newcastle,4,0,True,False,0.74,0.79,3.03,3.15,3.7,4.19
-Burnley,West Ham,0,0,False,False,2.49,2.74,2.53,2.61,1.14,1.21
-Crystal Palace,Everton,3,1,True,False,1.23,1.29,2.2,2.28,2.6,2.8
-Norwich,Aston Villa,0,2,False,True,2.71,2.9,2.36,2.48,1.11,1.15
-Manchester City,Leeds,7,0,True,False,0.15,0.18,8.13,9.1,16.79,19.59
-Crystal Palace,Southampton,2,2,False,False,1.09,1.27,2.41,2.54,2.78,3.15
-Brighton,Wolves,0,1,False,True,1.09,1.19,2.14,2.25,3.19,3.65
-Arsenal,West Ham,2,0,True,False,1.09,1.3,2.62,2.76,2.57,2.78
-Chelsea,Everton,1,1,False,False,0.21,0.25,6.0,6.83,15.15,20.0
-Liverpool,Newcastle,3,1,True,False,0.11,0.15,9.47,11.5,23.33,30.0
-Leeds,Arsenal,1,4,False,True,4.69,5.4,3.34,3.65,0.59,0.63
-Wolves,Chelsea,0,0,False,False,4.57,5.12,2.46,2.57,0.76,0.88
-Newcastle,Manchester City,0,4,False,True,19.59,24.0,8.54,10.0,0.13,0.15
-Tottenham,Liverpool,2,2,False,False,3.89,4.28,3.17,3.5,0.68,0.74
-West Ham,Southampton,2,3,False,True,0.95,1.01,2.65,2.83,2.98,3.17
-Tottenham,Crystal Palace,3,0,True,False,0.71,0.75,2.82,2.92,4.19,4.54
-Norwich,Arsenal,0,5,False,True,5.47,6.14,3.54,3.7,0.51,0.53
-Manchester City,Leicester,6,3,True,False,0.14,0.17,9.07,10.5,17.79,22.0
-Aston Villa,Chelsea,1,3,False,True,4.19,4.5,2.8,2.95,0.72,0.77
-Brighton,Brentford,2,0,True,False,0.94,0.99,2.42,2.52,3.39,3.7
-Newcastle,Manchester Utd,1,1,False,False,5.55,6.23,3.73,3.9,0.49,0.53
-Watford,West Ham,1,4,False,True,2.59,2.97,2.7,2.85,1.04,1.11
-Southampton,Tottenham,1,1,False,False,2.8,3.12,2.45,2.57,1.07,1.17
-Crystal Palace,Norwich,3,0,True,False,0.73,0.78,2.63,2.79,4.43,4.82
-Leicester,Liverpool,1,0,True,False,7.55,8.5,5.15,5.56,0.32,0.37
-Chelsea,Brighton,1,1,False,False,0.35,0.4,4.04,4.55,9.07,10.5
-Brentford,Manchester City,0,1,False,True,15.29,17.0,7.64,9.1,0.17,0.2
-Manchester Utd,Burnley,3,1,True,False,0.38,0.4,4.02,4.3,8.04,9.0
-Arsenal,Manchester City,1,2,False,True,4.28,4.5,3.22,3.45,0.64,0.68
-Watford,Tottenham,0,1,False,True,4.7,5.45,3.1,3.27,0.62,0.68
-Crystal Palace,West Ham,2,3,False,True,2.47,2.77,2.33,2.47,1.23,1.32
-Leeds,Burnley,3,1,True,False,1.04,1.12,2.59,2.92,2.71,2.9
-Everton,Brighton,2,3,False,True,1.89,2.0,2.1,2.16,1.71,1.98
-Brentford,Aston Villa,2,1,True,False,1.9,2.12,2.22,2.33,1.61,1.72
-Chelsea,Liverpool,2,2,False,False,1.64,1.74,2.48,2.59,1.7,1.88
-Manchester Utd,Wolves,0,1,False,True,0.68,0.74,2.76,2.9,4.69,5.28
-Southampton,Brentford,4,1,True,False,1.17,1.23,2.31,2.41,2.66,2.99
-West Ham,Norwich,2,0,True,False,0.4,0.45,4.03,4.25,7.08,8.7
-Brighton,Crystal Palace,1,1,False,False,1.03,1.1,2.39,2.62,2.97,3.2
-Manchester City,Chelsea,1,0,True,False,0.64,0.67,3.24,3.56,4.32,4.75
-Wolves,Southampton,3,1,True,False,1.42,1.57,2.08,2.18,2.35,2.62
-Norwich,Everton,2,1,True,False,2.46,2.59,2.33,2.48,1.23,1.28
-Newcastle,Watford,1,1,False,False,0.84,0.89,2.75,2.9,3.38,3.61
-Aston Villa,Manchester Utd,2,2,False,False,1.59,1.74,2.49,2.61,1.75,1.91
-West Ham,Leeds,2,3,False,True,0.67,0.72,3.22,3.63,3.92,4.2
-Liverpool,Brentford,3,0,True,False,0.27,0.3,5.24,5.79,10.54,12.6
-Brighton,Chelsea,1,1,False,False,4.52,5.15,2.76,2.95,0.69,0.73
-Leicester,Tottenham,2,3,False,True,2.25,2.45,2.46,2.58,1.27,1.31
-Brentford,Manchester Utd,1,3,False,True,3.59,3.91,2.7,2.91,0.83,0.87
-Watford,Norwich,0,3,False,True,1.04,1.08,2.52,2.6,2.81,2.95
-Everton,Aston Villa,0,1,False,True,1.79,2.0,2.42,2.75,1.6,1.76
-Manchester Utd,West Ham,1,0,True,False,1.09,1.21,2.64,2.75,2.56,2.88
-Leeds,Newcastle,0,1,False,True,0.9,0.95,2.92,3.3,2.92,3.2
-Brentford,Wolves,1,2,False,True,1.47,1.6,2.08,2.43,2.26,2.33
-Southampton,Manchester City,1,1,False,False,10.05,11.25,4.95,5.82,0.29,0.33
-Leicester,Brighton,1,1,False,False,1.58,1.71,2.42,2.52,1.79,2.08
-Crystal Palace,Liverpool,1,3,False,True,4.85,5.45,3.15,3.31,0.59,0.72
-Arsenal,Burnley,0,0,False,False,0.31,0.33,4.48,4.8,10.14,11.3
-Chelsea,Tottenham,2,0,True,False,0.73,0.79,2.81,2.95,4.07,4.35
-Burnley,Watford,0,0,False,False,1.19,1.23,2.25,2.35,2.63,2.78
-West Ham,Watford,1,0,True,False,0.54,0.57,3.28,3.63,5.41,6.03
-Newcastle,Everton,3,1,True,False,1.51,1.61,2.35,2.65,1.92,2.1
-Burnley,Manchester Utd,1,1,False,False,5.24,5.8,3.2,3.45,0.57,0.64
-Tottenham,Southampton,2,3,False,True,0.58,0.61,3.22,3.35,4.99,5.5
-Norwich,Crystal Palace,1,1,False,False,2.54,2.92,2.26,2.35,1.25,1.34
-Manchester City,Brentford,2,0,True,False,0.09,0.11,10.07,11.5,28.52,34.0
-Aston Villa,Leeds,3,3,False,False,0.92,1.01,2.81,2.92,2.95,3.31
-Wolves,Arsenal,0,1,False,True,2.73,3.16,2.2,2.45,1.21,1.41
-Liverpool,Leicester,2,0,True,False,0.22,0.27,6.41,7.2,12.07,14.0
-Manchester Utd,Southampton,1,1,False,False,0.57,0.65,3.5,3.75,4.74,5.5
-Watford,Brighton,0,2,False,True,2.81,3.25,2.32,2.52,1.12,1.27
-Everton,Leeds,3,0,True,False,1.51,1.67,2.59,3.01,1.79,1.99
-Brentford,Crystal Palace,0,0,False,False,1.95,2.29,2.1,2.28,1.68,1.88
-Norwich,Manchester City,0,4,False,True,15.16,17.5,6.3,6.75,0.19,0.22
-Tottenham,Wolves,0,2,False,True,0.7,0.74,2.73,2.9,4.66,4.9
-Newcastle,Aston Villa,1,0,True,False,1.8,1.85,2.38,2.52,1.61,1.67
-Burnley,Liverpool,0,1,False,True,11.7,14.0,5.79,6.3,0.23,0.27
-Leicester,West Ham,2,2,False,False,1.89,2.02,2.47,2.62,1.48,1.57
-Manchester Utd,Brighton,2,0,True,False,0.81,0.9,2.65,2.89,3.75,4.1
-West Ham,Newcastle,1,1,False,False,0.65,0.72,3.08,3.41,4.4,4.8
-Southampton,Everton,2,0,True,False,1.07,1.17,2.57,2.93,2.65,2.97
-Liverpool,Norwich,3,1,True,False,0.13,0.15,8.37,9.1,21.73,26.59
-Crystal Palace,Chelsea,0,1,False,True,4.57,5.49,2.76,3.08,0.69,0.75
-Brighton,Burnley,0,3,False,True,0.63,0.72,2.79,2.95,5.28,6.1
-Aston Villa,Watford,0,1,False,True,0.65,0.68,2.96,3.12,4.64,5.35
-Arsenal,Brentford,2,1,True,False,0.53,0.61,3.0,3.58,6.32,7.0
-Manchester City,Tottenham,2,3,False,True,0.29,0.33,5.02,5.5,9.72,10.5
-Leeds,Manchester Utd,2,4,False,True,3.73,4.32,3.13,3.45,0.71,0.91
-Wolves,Leicester,2,1,True,False,1.22,1.33,2.26,2.52,2.61,2.85
-Watford,Crystal Palace,1,4,False,True,1.96,2.05,2.12,2.2,1.64,1.7
-Burnley,Tottenham,1,0,True,False,3.68,3.9,2.63,2.78,0.82,0.88
-Liverpool,Leeds,6,0,True,False,0.18,0.21,7.13,7.8,13.91,16.0
-Arsenal,Wolves,2,1,True,False,0.67,0.73,2.72,2.86,4.93,5.3
-Southampton,Norwich,2,0,True,False,0.51,0.57,3.5,4.05,5.64,6.0
-Leeds,Tottenham,0,4,False,True,2.78,3.18,2.81,2.98,0.97,1.02
-Manchester Utd,Watford,0,0,False,False,0.38,0.4,4.06,4.29,7.63,8.14
-Crystal Palace,Burnley,1,1,False,False,0.9,0.95,2.33,2.43,3.74,4.2
-Brentford,Newcastle,0,2,False,True,1.38,1.52,2.1,2.17,2.4,2.6
-Brighton,Aston Villa,0,2,False,True,1.22,1.27,2.27,2.4,2.49,2.64
-Everton,Manchester City,0,1,False,True,11.19,13.75,5.34,5.8,0.26,0.27
-West Ham,Wolves,1,0,True,False,0.94,0.97,2.36,2.41,3.53,3.73
-Burnley,Leicester,0,2,False,True,1.95,2.18,2.3,2.4,1.54,1.63
-Leicester,Leeds,1,0,True,False,1.02,1.14,2.77,2.85,2.66,2.92
-Wolves,Crystal Palace,0,2,False,True,1.37,1.45,2.05,2.16,2.48,2.77
-Norwich,Brentford,1,3,False,True,2.14,2.43,2.18,2.26,1.47,1.55
-Newcastle,Brighton,2,1,True,False,1.67,1.8,2.13,2.29,1.89,2.0
-Burnley,Chelsea,0,4,False,True,6.44,7.09,3.07,3.3,0.52,0.55
-Aston Villa,Southampton,4,0,True,False,1.25,1.32,2.53,2.72,2.24,2.48
-Liverpool,West Ham,1,0,True,False,0.25,0.27,5.8,6.62,10.41,11.75
-Watford,Arsenal,2,3,False,True,5.73,6.17,3.26,3.4,0.54,0.56
-Manchester City,Manchester Utd,4,1,True,False,0.42,0.48,4.03,4.4,6.73,8.0
-Tottenham,Everton,5,0,True,False,0.72,0.77,2.9,3.0,4.07,4.4
-Wolves,Watford,4,0,True,False,0.93,0.97,2.45,2.52,3.43,3.67
-Southampton,Newcastle,1,2,False,True,1.0,1.08,2.55,2.69,2.98,3.41
-Norwich,Chelsea,1,3,False,True,8.68,10.0,3.95,4.1,0.37,0.4
-Leeds,Aston Villa,0,3,False,True,1.85,2.13,2.58,2.65,1.46,1.55
-Brighton,Liverpool,0,2,False,True,5.83,6.2,3.65,3.81,0.48,0.51
-Brentford,Burnley,2,0,True,False,1.1,1.19,2.32,2.44,2.83,3.0
-Manchester Utd,Tottenham,3,2,True,False,1.34,1.5,2.53,2.84,2.09,2.2
-West Ham,Aston Villa,2,1,True,False,1.52,1.61,2.29,2.41,1.98,2.22
-Southampton,Watford,1,2,False,True,0.66,0.72,3.11,3.27,4.24,4.6
-Leeds,Norwich,2,1,True,False,0.63,0.66,3.18,3.38,4.46,4.75
-Everton,Wolves,0,1,False,True,1.28,1.35,2.13,2.3,2.6,2.84
-Chelsea,Newcastle,1,0,True,False,0.42,0.44,3.86,4.0,7.19,7.76
-Arsenal,Leicester,2,0,True,False,0.44,0.46,3.87,4.1,6.37,6.92
-Crystal Palace,Manchester City,0,0,False,False,9.0,10.85,4.44,4.65,0.34,0.37
-Brighton,Tottenham,0,2,False,True,2.65,2.86,2.39,2.49,1.14,1.2
-Arsenal,Liverpool,0,2,False,True,2.64,2.88,2.68,2.83,1.06,1.12
-Everton,Newcastle,1,0,True,False,1.44,1.56,2.22,2.31,2.18,2.28
-Wolves,Leeds,2,3,False,True,1.2,1.29,2.4,2.6,2.47,2.64
-Aston Villa,Arsenal,0,1,False,True,1.99,2.14,2.41,2.5,1.45,1.55
-Leicester,Brentford,2,1,True,False,1.14,1.19,2.4,2.55,2.59,2.7
-Tottenham,West Ham,3,1,True,False,0.73,0.77,2.85,3.13,4.15,4.35
-Liverpool,Watford,2,0,True,False,0.16,0.17,7.36,8.39,17.26,20.83
-Wolves,Aston Villa,2,1,True,False,2.07,2.16,2.07,2.18,1.6,1.63
-Leeds,Southampton,1,1,False,False,1.45,1.55,2.59,2.67,1.85,1.96
-Chelsea,Brentford,1,4,False,True,0.39,0.43,3.75,4.0,8.17,9.0
-Burnley,Manchester City,0,2,False,True,15.14,18.0,5.93,6.8,0.2,0.23
-Brighton,Norwich,0,0,False,False,0.49,0.55,3.27,3.5,6.52,7.2
-Manchester Utd,Leicester,1,1,False,False,0.57,0.63,3.48,3.76,4.7,5.05
-West Ham,Everton,2,1,True,False,0.79,0.83,2.79,2.9,3.68,3.9
-Tottenham,Newcastle,5,1,True,False,0.55,0.58,3.28,3.48,5.32,5.8
-Crystal Palace,Arsenal,3,0,True,False,3.14,3.46,2.39,2.5,1.01,1.07
-Burnley,Everton,3,2,True,False,1.56,1.7,2.12,2.22,2.08,2.2
-Newcastle,Wolves,1,0,True,False,1.01,1.07,2.28,2.41,3.3,3.6
-Everton,Manchester Utd,1,0,True,False,3.08,3.34,2.81,2.93,0.9,0.92
-Watford,Leeds,0,3,False,True,1.8,1.91,2.43,2.58,1.58,1.68
-Southampton,Chelsea,0,6,False,True,2.93,3.2,2.61,2.72,1.0,1.1
-Arsenal,Brighton,1,2,False,True,0.65,0.68,2.77,2.94,5.13,5.43
-Aston Villa,Tottenham,0,4,False,True,2.35,2.47,2.51,2.66,1.21,1.26
-Norwich,Burnley,2,0,True,False,2.14,2.23,2.39,2.58,1.36,1.5
-Leicester,Crystal Palace,2,1,True,False,1.53,1.64,2.29,2.45,1.95,2.19
-Brentford,West Ham,2,0,True,False,1.68,1.85,2.3,2.44,1.76,1.95
-Manchester City,Liverpool,2,2,False,False,0.98,1.05,2.76,3.12,2.79,2.98
-Tottenham,Brighton,0,1,False,True,0.51,0.55,3.48,3.6,5.55,6.1
-Watford,Brentford,1,2,False,True,2.03,2.23,2.34,2.5,1.47,1.58
-Southampton,Arsenal,1,0,True,False,2.98,3.22,2.73,2.83,0.94,1.01
-Manchester Utd,Norwich,3,2,True,False,0.29,0.3,5.3,5.5,9.02,10.0
-West Ham,Burnley,1,1,False,False,0.81,0.88,2.74,2.88,3.62,3.98
-Newcastle,Leicester,2,1,True,False,1.06,1.14,2.52,2.61,2.75,3.0
-Liverpool,Manchester Utd,4,0,True,False,0.35,0.4,4.61,4.95,7.74,8.6
-Newcastle,Crystal Palace,1,0,True,False,1.29,1.36,2.23,2.39,2.45,2.65
-Everton,Leicester,1,1,False,False,1.57,1.67,2.31,2.4,1.9,2.0
-Chelsea,Arsenal,2,4,False,True,0.91,0.99,2.53,2.65,3.38,3.7
-Manchester City,Brighton,3,0,True,False,0.23,0.24,5.56,5.95,13.66,16.0
-Burnley,Southampton,2,0,True,False,1.67,1.73,2.35,2.59,1.74,1.8
-Arsenal,Manchester Utd,3,1,True,False,1.05,1.13,2.65,2.8,2.69,2.8
-Norwich,Newcastle,0,3,False,True,2.51,2.73,2.33,2.47,1.22,1.31
-Manchester City,Watford,5,1,True,False,0.12,0.13,8.9,10.0,24.47,27.69
-Leicester,Aston Villa,0,0,False,False,2.0,2.13,2.34,2.63,1.48,1.55
-Brentford,Tottenham,0,0,False,False,3.85,4.32,2.97,3.2,0.73,0.76
-Chelsea,West Ham,1,0,True,False,0.42,0.45,3.88,4.26,6.96,7.6
-Burnley,Wolves,1,0,True,False,1.57,1.7,2.14,2.46,2.06,2.17
-Brighton,Southampton,2,2,False,False,1.07,1.16,2.4,2.64,2.85,3.1
-Liverpool,Everton,2,0,True,False,0.2,0.21,6.26,6.7,14.46,16.0
-Crystal Palace,Leeds,0,0,False,False,1.4,1.5,2.45,2.57,2.02,2.17
-Manchester Utd,Chelsea,1,1,False,False,2.54,2.75,2.65,2.99,1.09,1.16
-Newcastle,Liverpool,0,1,False,True,5.45,6.0,3.35,3.55,0.54,0.59
-Wolves,Brighton,0,3,False,True,1.75,1.85,2.01,2.13,1.94,2.0
-Watford,Burnley,1,2,False,True,1.63,1.76,2.22,2.33,1.88,1.97
-Southampton,Crystal Palace,1,2,False,True,1.45,1.53,2.17,2.25,2.18,2.4
-Aston Villa,Norwich,2,0,True,False,0.42,0.5,3.83,4.19,6.94,7.7
-Leeds,Manchester City,0,4,False,True,8.49,9.25,4.83,5.1,0.32,0.34
-Tottenham,Leicester,3,1,True,False,0.37,0.39,4.33,4.83,7.78,8.5
-Everton,Chelsea,1,0,True,False,4.22,4.57,2.9,3.0,0.71,0.73
-West Ham,Arsenal,1,2,False,True,3.42,3.62,2.9,3.15,0.82,0.9
-Manchester Utd,Brentford,3,0,True,False,0.75,0.8,3.0,3.15,3.66,4.05
-Crystal Palace,Watford,1,0,True,False,0.69,0.73,2.85,2.95,4.39,4.75
-Chelsea,Wolves,2,2,False,False,0.38,0.41,3.95,4.25,8.4,10.0
-Burnley,Aston Villa,1,3,False,True,2.1,2.23,2.18,2.34,1.5,1.63
-Brentford,Southampton,3,0,True,False,1.12,1.16,2.52,2.65,2.57,2.65
-Brighton,Manchester Utd,4,0,True,False,2.04,2.28,2.37,2.5,1.45,1.6
-Liverpool,Tottenham,1,1,False,False,0.43,0.47,4.17,4.45,6.08,6.6
-Norwich,West Ham,0,4,False,True,3.88,4.14,3.03,3.2,0.71,0.74
-Leicester,Everton,1,2,False,True,1.68,1.79,2.29,2.4,1.77,1.85
-Arsenal,Leeds,2,1,True,False,0.53,0.57,3.55,3.9,5.16,5.6
-Manchester City,Newcastle,5,0,True,False,0.18,0.2,6.95,7.6,15.88,18.26
-Aston Villa,Liverpool,1,2,False,True,5.43,5.84,3.63,3.8,0.51,0.54
-Leeds,Chelsea,0,3,False,True,3.9,4.25,3.11,3.25,0.69,0.73
-Watford,Everton,0,0,False,False,4.81,5.4,2.81,2.94,0.65,0.68
-Leicester,Norwich,3,0,True,False,0.34,0.36,4.58,4.8,8.18,9.25
-Wolves,Manchester City,1,5,False,True,11.21,13.0,5.23,5.75,0.26,0.3
-Tottenham,Arsenal,3,0,True,False,1.28,1.35,2.51,2.6,2.25,2.34
-Tottenham,Burnley,1,0,True,False,0.32,0.33,4.63,4.8,9.18,10.0
-Wolves,Norwich,1,1,False,False,0.54,0.57,3.48,3.7,5.12,6.0
-West Ham,Manchester City,2,2,False,False,6.95,7.7,4.22,4.45,0.4,0.42
-Watford,Leicester,1,5,False,True,4.1,4.54,2.99,3.2,0.7,0.76
-Leeds,Brighton,1,1,False,False,1.66,1.75,2.46,2.63,1.7,1.88
-Aston Villa,Crystal Palace,1,1,False,False,0.9,1.09,2.55,2.66,3.41,3.99
-Everton,Brentford,2,3,False,True,0.92,0.99,2.59,2.84,3.22,3.72
-Newcastle,Arsenal,2,0,True,False,3.34,3.7,2.87,3.1,0.83,0.9
-Southampton,Liverpool,1,2,False,True,5.62,6.3,3.96,4.25,0.47,0.51
-Everton,Crystal Palace,3,2,True,False,0.86,0.9,2.56,2.9,3.67,3.95
-Chelsea,Leicester,1,1,False,False,0.43,0.45,3.94,4.26,6.61,7.17
-Aston Villa,Burnley,1,1,False,False,1.04,1.1,2.48,2.91,2.88,3.1
-Norwich,Tottenham,0,5,False,True,9.21,11.0,4.69,5.25,0.31,0.35
-Manchester City,Aston Villa,3,2,True,False,0.17,0.2,7.33,7.8,15.41,18.0
-Liverpool,Wolves,3,1,True,False,0.15,0.17,8.22,9.9,17.51,20.0
-Leicester,Southampton,4,1,True,False,0.71,0.77,3.31,3.45,3.52,3.76
-Crystal Palace,Manchester Utd,1,0,True,False,1.83,2.01,2.52,2.61,1.52,1.59
-Chelsea,Watford,2,1,True,False,0.19,0.22,6.63,7.3,15.48,18.0
-Burnley,Newcastle,1,2,False,True,1.46,1.55,2.32,2.67,2.05,2.2
-Brighton,West Ham,3,1,True,False,1.65,1.9,2.48,2.58,1.7,1.86
-Brentford,Leeds,1,2,False,True,1.35,1.43,2.81,2.94,1.89,2.12
-Arsenal,Everton,5,1,True,False,0.34,0.36,4.55,4.88,8.02,9.0
+home-name,away-name,home-result,away-result,home-win,away-win,home-odds-avg,home-odds-max,draw-odds-avg,draw-odds-max,away-odds-avg,away-odds-max,date-start-timestamp
+Brentford,Arsenal,2,0,True,False,2.97,3.19,2.29,2.42,1.07,1.13,1628881200
+Manchester Utd,Leeds,5,1,True,False,0.62,0.68,3.27,3.6,4.46,5.0,1628940600
+Watford,Aston Villa,3,2,True,False,2.47,2.73,2.31,2.45,1.23,1.31,1628949600
+Leicester,Wolves,1,0,True,False,0.72,0.77,2.8,3.13,4.12,4.4,1628949600
+Everton,Southampton,3,1,True,False,1.04,1.12,2.4,2.47,2.94,3.1,1628949600
+Chelsea,Crystal Palace,3,0,True,False,0.31,0.36,4.39,5.2,10.04,12.0,1628949600
+Burnley,Brighton,1,2,False,True,2.21,2.35,2.12,2.19,1.46,1.53,1628949600
+Norwich,Liverpool,0,3,False,True,6.02,7.5,4.09,5.0,0.44,0.5,1628958600
+Newcastle,West Ham,2,4,False,True,2.37,2.62,2.51,2.66,1.2,1.29,1629032400
+Tottenham,Manchester City,1,0,True,False,4.95,5.53,3.12,3.3,0.61,0.65,1629041400
+Liverpool,Burnley,2,0,True,False,0.25,0.26,5.47,6.0,11.02,12.5,1629545400
+Manchester City,Norwich,5,0,True,False,0.13,0.15,8.85,10.0,22.44,25.0,1629554400
+Leeds,Everton,2,2,False,False,1.12,1.19,2.5,2.6,2.58,2.67,1629554400
+Crystal Palace,Brentford,0,0,False,False,1.66,1.75,2.17,2.27,1.9,1.98,1629554400
+Aston Villa,Newcastle,2,0,True,False,0.83,0.87,2.89,3.1,3.29,3.42,1629554400
+Brighton,Watford,2,0,True,False,0.74,0.8,2.59,2.69,4.55,5.0,1629563400
+Wolves,Tottenham,0,1,False,True,1.94,2.17,2.09,2.19,1.68,1.79,1629637200
+Southampton,Manchester Utd,1,1,False,False,4.36,4.79,3.21,3.45,0.64,0.7,1629637200
+Arsenal,Chelsea,0,2,False,True,3.61,3.98,2.54,2.64,0.87,0.93,1629646200
+West Ham,Leicester,4,1,True,False,1.46,1.52,2.5,2.7,1.91,2.02,1629745200
+Manchester City,Arsenal,5,0,True,False,0.34,0.36,4.28,4.5,8.91,10.5,1630150200
+West Ham,Crystal Palace,2,2,False,False,0.56,0.59,3.09,3.33,5.54,6.0,1630159200
+Norwich,Leicester,1,2,False,True,3.21,3.62,2.63,2.74,0.91,0.96,1630159200
+Newcastle,Southampton,2,2,False,False,1.44,1.51,2.57,2.74,1.89,1.96,1630159200
+Brighton,Everton,0,2,False,True,1.32,1.39,2.25,2.34,2.37,2.46,1630159200
+Aston Villa,Brentford,1,1,False,False,1.08,1.15,2.32,2.43,2.93,3.1,1630159200
+Liverpool,Chelsea,1,1,False,False,1.42,1.55,2.37,2.63,2.08,2.26,1630168200
+Tottenham,Watford,1,0,True,False,0.46,0.51,3.44,3.65,6.82,8.34,1630242000
+Burnley,Leeds,1,1,False,False,2.3,2.52,2.55,2.65,1.22,1.27,1630242000
+Wolves,Manchester Utd,0,1,False,True,3.95,4.25,2.72,2.84,0.77,0.83,1630251000
+Crystal Palace,Tottenham,3,0,True,False,3.04,3.3,2.34,2.5,1.05,1.13,1631359800
+Watford,Wolves,0,2,False,True,2.61,3.0,2.2,2.29,1.24,1.35,1631368800
+Southampton,West Ham,0,0,False,False,2.08,2.3,2.53,2.66,1.34,1.46,1631368800
+Manchester Utd,Newcastle,4,1,True,False,0.19,0.21,6.42,7.0,14.77,16.1,1631368800
+Leicester,Manchester City,0,1,False,True,4.66,5.0,3.09,3.3,0.63,0.68,1631368800
+Brentford,Brighton,0,1,False,True,2.0,2.14,2.06,2.24,1.67,1.88,1631368800
+Arsenal,Norwich,1,0,True,False,0.42,0.48,3.94,4.13,6.76,7.83,1631368800
+Chelsea,Aston Villa,3,0,True,False,0.34,0.36,4.29,4.5,8.74,9.9,1631377800
+Leeds,Liverpool,0,3,False,True,3.84,4.15,3.34,3.6,0.67,0.72,1631460600
+Everton,Burnley,3,1,True,False,0.77,0.8,2.55,2.74,4.31,4.74,1631559600
+Newcastle,Leeds,1,1,False,False,2.11,2.25,2.68,2.76,1.26,1.3,1631905200
+Wolves,Brentford,0,2,False,True,0.83,0.88,2.34,2.42,4.17,4.61,1631964600
+Norwich,Watford,1,3,False,True,1.28,1.41,2.33,2.45,2.37,2.5,1631973600
+Manchester City,Southampton,0,0,False,False,0.17,0.2,7.17,8.0,16.23,20.0,1631973600
+Liverpool,Crystal Palace,3,0,True,False,0.27,0.31,5.22,5.9,10.55,13.0,1631973600
+Burnley,Arsenal,0,1,False,True,2.81,3.14,2.65,2.79,1.0,1.05,1631973600
+Aston Villa,Everton,3,0,True,False,1.21,1.41,2.37,2.5,2.47,2.65,1631982600
+West Ham,Manchester Utd,1,2,False,True,3.43,3.63,2.8,2.9,0.83,0.89,1632056400
+Brighton,Leicester,2,1,True,False,1.53,1.68,2.21,2.27,2.03,2.16,1632056400
+Tottenham,Chelsea,0,3,False,True,3.46,4.2,2.49,2.93,0.91,1.06,1632065400
+Manchester Utd,Aston Villa,0,1,False,True,0.4,0.44,4.02,4.2,7.0,7.83,1632569400
+Chelsea,Manchester City,0,1,False,True,1.91,2.04,2.19,2.3,1.64,1.73,1632569400
+Watford,Newcastle,1,1,False,False,1.13,1.17,2.51,2.6,2.54,2.6,1632578400
+Leicester,Burnley,2,2,False,False,0.68,0.73,2.88,2.96,4.43,4.81,1632578400
+Leeds,West Ham,1,2,False,True,1.99,2.19,2.6,2.71,1.35,1.45,1632578400
+Everton,Norwich,2,0,True,False,0.7,0.74,2.75,2.82,4.55,4.8,1632578400
+Brentford,Liverpool,3,3,False,False,6.7,7.3,3.94,4.25,0.42,0.47,1632587400
+Southampton,Wolves,0,1,False,True,1.21,1.3,2.3,2.42,2.55,2.78,1632661200
+Arsenal,Tottenham,3,1,True,False,1.21,1.32,2.39,2.5,2.49,2.74,1632670200
+Crystal Palace,Brighton,1,1,False,False,1.9,1.99,2.1,2.16,1.7,1.75,1632769200
+Manchester Utd,Everton,1,1,False,False,0.54,0.6,3.26,3.5,5.82,6.6,1633174200
+Wolves,Newcastle,2,1,True,False,0.75,0.83,2.83,3.0,3.94,4.3,1633183200
+Leeds,Watford,1,0,True,False,0.76,0.8,2.95,3.1,3.64,3.9,1633183200
+Chelsea,Southampton,3,1,True,False,0.41,0.46,3.81,4.1,7.38,8.2,1633183200
+Burnley,Norwich,0,0,False,False,0.95,1.02,2.6,2.72,3.05,3.2,1633183200
+Brighton,Arsenal,0,0,False,False,2.24,2.52,2.28,2.4,1.37,1.52,1633192200
+West Ham,Brentford,1,2,False,True,0.78,0.88,2.73,2.85,3.82,4.13,1633266000
+Tottenham,Aston Villa,2,1,True,False,1.1,1.17,2.43,2.5,2.71,3.06,1633266000
+Crystal Palace,Leicester,2,2,False,False,1.84,1.9,2.28,2.37,1.64,1.75,1633266000
+Liverpool,Manchester City,2,2,False,False,2.02,2.2,2.61,2.97,1.35,1.45,1633275000
+Watford,Liverpool,0,5,False,True,8.0,8.89,4.56,4.88,0.34,0.36,1634383800
+Southampton,Leeds,1,0,True,False,1.21,1.43,2.58,2.72,2.31,2.55,1634392800
+Norwich,Brighton,0,0,False,False,2.98,3.25,2.47,2.69,1.02,1.17,1634392800
+Manchester City,Burnley,2,0,True,False,0.14,0.16,8.26,9.0,20.4,25.0,1634392800
+Leicester,Manchester Utd,4,2,True,False,2.66,2.9,2.78,2.97,1.02,1.14,1634392800
+Aston Villa,Wolves,2,3,False,True,1.16,1.27,2.24,2.38,2.8,3.1,1634392800
+Brentford,Chelsea,0,1,False,True,4.96,5.7,2.86,2.99,0.64,0.7,1634401800
+Everton,West Ham,0,1,False,True,1.76,1.91,2.31,2.52,1.71,1.99,1634475600
+Newcastle,Tottenham,2,3,False,True,2.61,2.9,2.63,2.71,1.07,1.13,1634484600
+Arsenal,Crystal Palace,2,2,False,False,0.62,0.66,2.99,3.17,4.94,5.59,1634583600
+Arsenal,Aston Villa,3,1,True,False,0.94,1.04,2.7,2.85,3.04,3.55,1634929200
+Chelsea,Norwich,7,0,True,False,0.2,0.25,6.26,8.6,17.29,28.0,1634988600
+Southampton,Burnley,2,2,False,False,0.96,1.09,2.65,2.8,2.98,3.39,1634997600
+Leeds,Wolves,1,1,False,False,1.4,1.64,2.47,2.76,2.05,2.23,1634997600
+Everton,Watford,2,5,False,True,0.73,0.84,2.85,3.5,4.15,5.0,1634997600
+Crystal Palace,Newcastle,1,1,False,False,0.93,1.0,2.62,2.8,3.16,3.62,1634997600
+Brighton,Manchester City,1,4,False,True,7.09,8.67,3.86,4.28,0.42,0.48,1635006600
+West Ham,Tottenham,1,0,True,False,1.33,1.43,2.53,2.65,2.11,2.29,1635080400
+Brentford,Leicester,1,2,False,True,1.84,2.05,2.41,2.56,1.57,1.7,1635080400
+Manchester Utd,Liverpool,0,5,False,True,1.9,2.13,2.68,2.93,1.42,1.64,1635089400
+Leicester,Arsenal,0,2,False,True,1.55,1.69,2.51,2.6,1.78,1.96,1635593400
+Watford,Southampton,0,1,False,True,2.27,2.62,2.46,2.58,1.25,1.33,1635602400
+Newcastle,Chelsea,0,3,False,True,6.85,7.64,3.58,3.91,0.45,0.47,1635602400
+Manchester City,Crystal Palace,0,2,False,True,0.15,0.16,7.72,8.71,18.67,21.0,1635602400
+Liverpool,Brighton,2,2,False,False,0.27,0.3,5.13,5.75,9.8,11.0,1635602400
+Burnley,Brentford,3,1,True,False,1.63,1.74,2.19,2.35,1.9,2.0,1635602400
+Tottenham,Manchester Utd,0,3,False,True,2.12,2.34,2.62,2.75,1.27,1.35,1635611400
+Norwich,Leeds,1,2,False,True,2.65,2.83,2.66,2.85,1.02,1.09,1635688800
+Aston Villa,West Ham,1,4,False,True,2.0,2.22,2.54,2.69,1.37,1.52,1635697800
+Wolves,Everton,2,1,True,False,1.22,1.3,2.23,2.49,2.6,2.8,1635796800
+Southampton,Aston Villa,1,0,True,False,1.06,1.17,2.65,2.85,2.63,3.0,1636142400
+Manchester Utd,Manchester City,0,2,False,True,3.68,4.0,3.15,3.59,0.72,0.75,1636201800
+Crystal Palace,Wolves,2,0,True,False,1.35,1.42,2.12,2.2,2.44,2.55,1636210800
+Chelsea,Burnley,1,1,False,False,0.27,0.29,4.91,5.21,12.15,13.0,1636210800
+Brentford,Norwich,1,2,False,True,0.65,0.73,3.0,3.2,4.62,5.13,1636210800
+Brighton,Newcastle,1,1,False,False,0.6,0.65,3.16,3.63,5.0,5.25,1636219800
+Leeds,Leicester,1,1,False,False,1.67,1.88,2.48,2.57,1.68,1.76,1636293600
+Everton,Tottenham,0,0,False,False,2.45,2.77,2.31,2.37,1.25,1.32,1636293600
+Arsenal,Watford,1,0,True,False,0.44,0.48,3.81,4.01,6.42,7.0,1636293600
+West Ham,Liverpool,3,2,True,False,3.51,3.66,3.2,3.4,0.73,0.78,1636302600
+Leicester,Chelsea,0,3,False,True,3.96,4.12,2.76,2.86,0.76,0.79,1637411400
+Wolves,West Ham,1,0,True,False,2.17,2.4,2.27,2.38,1.4,1.46,1637420400
+Watford,Manchester Utd,4,1,True,False,5.45,6.23,3.63,3.8,0.5,0.55,1637420400
+Norwich,Southampton,2,1,True,False,2.58,2.91,2.47,2.6,1.13,1.21,1637420400
+Newcastle,Brentford,3,3,False,False,1.47,1.6,2.44,2.78,1.93,2.04,1637420400
+Burnley,Crystal Palace,3,3,False,False,1.84,1.94,2.2,2.54,1.69,1.8,1637420400
+Aston Villa,Brighton,2,0,True,False,1.46,1.57,2.3,2.38,2.06,2.23,1637420400
+Liverpool,Arsenal,4,0,True,False,0.51,0.57,3.78,4.2,5.09,5.55,1637429400
+Manchester City,Everton,3,0,True,False,0.21,0.23,6.05,6.6,14.39,17.25,1637503200
+Tottenham,Leeds,2,1,True,False,0.61,0.65,3.08,3.3,4.82,5.59,1637512200
+Arsenal,Newcastle,2,0,True,False,0.51,0.54,3.57,3.7,5.38,5.75,1638016200
+Norwich,Wolves,0,0,False,False,2.63,2.85,2.34,2.43,1.17,1.24,1638025200
+Liverpool,Southampton,4,0,True,False,0.26,0.3,5.46,5.8,10.77,12.0,1638025200
+Crystal Palace,Aston Villa,1,2,False,True,1.3,1.38,2.29,2.57,2.31,2.43,1638025200
+Brighton,Leeds,0,0,False,False,1.17,1.25,2.36,2.62,2.52,2.68,1638034200
+Manchester City,West Ham,2,1,True,False,0.27,0.31,5.33,5.9,10.14,11.0,1638108000
+Leicester,Watford,4,2,True,False,0.7,0.76,2.88,3.05,4.2,4.81,1638108000
+Brentford,Everton,1,0,True,False,1.24,1.31,2.26,2.35,2.51,2.64,1638108000
+Chelsea,Manchester Utd,1,1,False,False,0.56,0.59,3.21,3.36,5.46,6.16,1638117000
+Newcastle,Norwich,1,1,False,False,1.07,1.15,2.52,2.6,2.7,3.12,1638300600
+Leeds,Crystal Palace,1,0,True,False,1.25,1.36,2.36,2.48,2.4,2.55,1638303300
+Wolves,Burnley,0,0,False,False,0.96,1.05,2.37,2.5,3.36,3.94,1638387000
+West Ham,Brighton,1,1,False,False,0.99,1.05,2.44,2.65,3.12,3.49,1638387000
+Watford,Chelsea,1,2,False,True,9.01,10.04,4.42,4.63,0.32,0.35,1638387000
+Southampton,Leicester,2,2,False,False,1.35,1.42,2.47,2.57,2.1,2.25,1638387000
+Everton,Liverpool,1,4,False,True,7.57,8.3,4.2,4.7,0.38,0.41,1638389700
+Aston Villa,Manchester City,1,2,False,True,6.54,7.0,3.63,3.8,0.45,0.48,1638389700
+Tottenham,Brentford,2,0,True,False,0.65,0.69,2.96,3.2,4.54,5.06,1638473400
+Manchester Utd,Arsenal,3,2,True,False,1.07,1.18,2.65,2.82,2.59,2.85,1638476100
+West Ham,Chelsea,3,2,True,False,3.87,4.19,2.7,2.81,0.79,0.84,1638621000
+Wolves,Liverpool,0,1,False,True,7.42,8.6,4.0,4.25,0.39,0.44,1638630000
+Southampton,Brighton,1,1,False,False,1.55,1.68,2.18,2.41,2.03,2.35,1638630000
+Newcastle,Burnley,1,0,True,False,1.35,1.46,2.46,2.53,2.1,2.23,1638630000
+Watford,Manchester City,1,3,False,True,12.47,15.0,6.14,7.05,0.21,0.23,1638639000
+Tottenham,Norwich,3,0,True,False,0.46,0.5,3.53,3.73,6.48,7.0,1638712800
+Manchester Utd,Crystal Palace,1,0,True,False,0.52,0.54,3.45,3.6,5.48,6.13,1638712800
+Leeds,Brentford,2,2,False,False,0.85,0.92,2.54,2.64,3.69,3.95,1638712800
+Aston Villa,Leicester,2,1,True,False,1.25,1.4,2.42,2.5,2.34,2.51,1638721800
+Everton,Arsenal,2,1,True,False,2.56,2.95,2.49,2.64,1.15,1.38,1638820800
+Brentford,Watford,2,1,True,False,1.48,1.63,2.37,2.65,1.99,2.21,1639166400
+Manchester City,Wolves,1,0,True,False,0.17,0.2,6.94,7.52,18.62,21.0,1639225800
+Liverpool,Aston Villa,1,0,True,False,0.24,0.27,5.67,6.3,10.98,12.0,1639234800
+Chelsea,Leeds,3,2,True,False,0.24,0.3,5.68,6.63,11.88,13.75,1639234800
+Arsenal,Southampton,3,0,True,False,0.74,0.81,2.95,3.15,3.79,4.2,1639234800
+Norwich,Manchester Utd,0,1,False,True,6.39,6.76,3.91,4.11,0.44,0.45,1639243800
+Leicester,Newcastle,4,0,True,False,0.74,0.79,3.03,3.15,3.7,4.19,1639317600
+Burnley,West Ham,0,0,False,False,2.49,2.74,2.53,2.61,1.14,1.21,1639317600
+Crystal Palace,Everton,3,1,True,False,1.23,1.29,2.2,2.28,2.6,2.8,1639326600
+Norwich,Aston Villa,0,2,False,True,2.71,2.9,2.36,2.48,1.11,1.15,1639511100
+Manchester City,Leeds,7,0,True,False,0.15,0.18,8.13,9.1,16.79,19.59,1639512000
+Crystal Palace,Southampton,2,2,False,False,1.09,1.27,2.41,2.54,2.78,3.15,1639596600
+Brighton,Wolves,0,1,False,True,1.09,1.19,2.14,2.25,3.19,3.65,1639596600
+Arsenal,West Ham,2,0,True,False,1.09,1.3,2.62,2.76,2.57,2.78,1639598400
+Chelsea,Everton,1,1,False,False,0.21,0.25,6.0,6.83,15.15,20.0,1639683900
+Liverpool,Newcastle,3,1,True,False,0.11,0.15,9.47,11.5,23.33,30.0,1639684800
+Leeds,Arsenal,1,4,False,True,4.69,5.4,3.34,3.65,0.59,0.63,1639848600
+Wolves,Chelsea,0,0,False,False,4.57,5.12,2.46,2.57,0.76,0.88,1639922400
+Newcastle,Manchester City,0,4,False,True,19.59,24.0,8.54,10.0,0.13,0.15,1639922400
+Tottenham,Liverpool,2,2,False,False,3.89,4.28,3.17,3.5,0.68,0.74,1639931400
+West Ham,Southampton,2,3,False,True,0.95,1.01,2.65,2.83,2.98,3.17,1640530800
+Tottenham,Crystal Palace,3,0,True,False,0.71,0.75,2.82,2.92,4.19,4.54,1640530800
+Norwich,Arsenal,0,5,False,True,5.47,6.14,3.54,3.7,0.51,0.53,1640530800
+Manchester City,Leicester,6,3,True,False,0.14,0.17,9.07,10.5,17.79,22.0,1640530800
+Aston Villa,Chelsea,1,3,False,True,4.19,4.5,2.8,2.95,0.72,0.77,1640539800
+Brighton,Brentford,2,0,True,False,0.94,0.99,2.42,2.52,3.39,3.7,1640548800
+Newcastle,Manchester Utd,1,1,False,False,5.55,6.23,3.73,3.9,0.49,0.53,1640635200
+Watford,West Ham,1,4,False,True,2.59,2.97,2.7,2.85,1.04,1.11,1640703600
+Southampton,Tottenham,1,1,False,False,2.8,3.12,2.45,2.57,1.07,1.17,1640703600
+Crystal Palace,Norwich,3,0,True,False,0.73,0.78,2.63,2.79,4.43,4.82,1640703600
+Leicester,Liverpool,1,0,True,False,7.55,8.5,5.15,5.56,0.32,0.37,1640721600
+Chelsea,Brighton,1,1,False,False,0.35,0.4,4.04,4.55,9.07,10.5,1640806200
+Brentford,Manchester City,0,1,False,True,15.29,17.0,7.64,9.1,0.17,0.2,1640808900
+Manchester Utd,Burnley,3,1,True,False,0.38,0.4,4.02,4.3,8.04,9.0,1640895300
+Arsenal,Manchester City,1,2,False,True,4.28,4.5,3.22,3.45,0.64,0.68,1641040200
+Watford,Tottenham,0,1,False,True,4.7,5.45,3.1,3.27,0.62,0.68,1641049200
+Crystal Palace,West Ham,2,3,False,True,2.47,2.77,2.33,2.47,1.23,1.32,1641058200
+Leeds,Burnley,3,1,True,False,1.04,1.12,2.59,2.92,2.71,2.9,1641132000
+Everton,Brighton,2,3,False,True,1.89,2.0,2.1,2.16,1.71,1.98,1641132000
+Brentford,Aston Villa,2,1,True,False,1.9,2.12,2.22,2.33,1.61,1.72,1641132000
+Chelsea,Liverpool,2,2,False,False,1.64,1.74,2.48,2.59,1.7,1.88,1641141000
+Manchester Utd,Wolves,0,1,False,True,0.68,0.74,2.76,2.9,4.69,5.28,1641231000
+Southampton,Brentford,4,1,True,False,1.17,1.23,2.31,2.41,2.66,2.99,1641930300
+West Ham,Norwich,2,0,True,False,0.4,0.45,4.03,4.25,7.08,8.7,1642016700
+Brighton,Crystal Palace,1,1,False,False,1.03,1.1,2.39,2.62,2.97,3.2,1642190400
+Manchester City,Chelsea,1,0,True,False,0.64,0.67,3.24,3.56,4.32,4.75,1642249800
+Wolves,Southampton,3,1,True,False,1.42,1.57,2.08,2.18,2.35,2.62,1642258800
+Norwich,Everton,2,1,True,False,2.46,2.59,2.33,2.48,1.23,1.28,1642258800
+Newcastle,Watford,1,1,False,False,0.84,0.89,2.75,2.9,3.38,3.61,1642258800
+Aston Villa,Manchester Utd,2,2,False,False,1.59,1.74,2.49,2.61,1.75,1.91,1642267800
+West Ham,Leeds,2,3,False,True,0.67,0.72,3.22,3.63,3.92,4.2,1642341600
+Liverpool,Brentford,3,0,True,False,0.27,0.3,5.24,5.79,10.54,12.6,1642341600
+Brighton,Chelsea,1,1,False,False,4.52,5.15,2.76,2.95,0.69,0.73,1642536000
+Leicester,Tottenham,2,3,False,True,2.25,2.45,2.46,2.58,1.27,1.31,1642620600
+Brentford,Manchester Utd,1,3,False,True,3.59,3.91,2.7,2.91,0.83,0.87,1642622400
+Watford,Norwich,0,3,False,True,1.04,1.08,2.52,2.6,2.81,2.95,1642795200
+Everton,Aston Villa,0,1,False,True,1.79,2.0,2.42,2.75,1.6,1.76,1642854600
+Manchester Utd,West Ham,1,0,True,False,1.09,1.21,2.64,2.75,2.56,2.88,1642863600
+Leeds,Newcastle,0,1,False,True,0.9,0.95,2.92,3.3,2.92,3.2,1642863600
+Brentford,Wolves,1,2,False,True,1.47,1.6,2.08,2.43,2.26,2.33,1642863600
+Southampton,Manchester City,1,1,False,False,10.05,11.25,4.95,5.82,0.29,0.33,1642872600
+Leicester,Brighton,1,1,False,False,1.58,1.71,2.42,2.52,1.79,2.08,1642946400
+Crystal Palace,Liverpool,1,3,False,True,4.85,5.45,3.15,3.31,0.59,0.72,1642946400
+Arsenal,Burnley,0,0,False,False,0.31,0.33,4.48,4.8,10.14,11.3,1642946400
+Chelsea,Tottenham,2,0,True,False,0.73,0.79,2.81,2.95,4.07,4.35,1642955400
+Burnley,Watford,0,0,False,False,1.19,1.23,2.25,2.35,2.63,2.78,1644084000
+West Ham,Watford,1,0,True,False,0.54,0.57,3.28,3.63,5.41,6.03,1644349500
+Newcastle,Everton,3,1,True,False,1.51,1.61,2.35,2.65,1.92,2.1,1644349500
+Burnley,Manchester Utd,1,1,False,False,5.24,5.8,3.2,3.45,0.57,0.64,1644350400
+Tottenham,Southampton,2,3,False,True,0.58,0.61,3.22,3.35,4.99,5.5,1644435900
+Norwich,Crystal Palace,1,1,False,False,2.54,2.92,2.26,2.35,1.25,1.34,1644435900
+Manchester City,Brentford,2,0,True,False,0.09,0.11,10.07,11.5,28.52,34.0,1644435900
+Aston Villa,Leeds,3,3,False,False,0.92,1.01,2.81,2.92,2.95,3.31,1644436800
+Wolves,Arsenal,0,1,False,True,2.73,3.16,2.2,2.45,1.21,1.41,1644522300
+Liverpool,Leicester,2,0,True,False,0.22,0.27,6.41,7.2,12.07,14.0,1644522300
+Manchester Utd,Southampton,1,1,False,False,0.57,0.65,3.5,3.75,4.74,5.5,1644669000
+Watford,Brighton,0,2,False,True,2.81,3.25,2.32,2.52,1.12,1.27,1644678000
+Everton,Leeds,3,0,True,False,1.51,1.67,2.59,3.01,1.79,1.99,1644678000
+Brentford,Crystal Palace,0,0,False,False,1.95,2.29,2.1,2.28,1.68,1.88,1644678000
+Norwich,Manchester City,0,4,False,True,15.16,17.5,6.3,6.75,0.19,0.22,1644687000
+Tottenham,Wolves,0,2,False,True,0.7,0.74,2.73,2.9,4.66,4.9,1644760800
+Newcastle,Aston Villa,1,0,True,False,1.8,1.85,2.38,2.52,1.61,1.67,1644760800
+Burnley,Liverpool,0,1,False,True,11.7,14.0,5.79,6.3,0.23,0.27,1644760800
+Leicester,West Ham,2,2,False,False,1.89,2.02,2.47,2.62,1.48,1.57,1644769800
+Manchester Utd,Brighton,2,0,True,False,0.81,0.9,2.65,2.89,3.75,4.1,1644956100
+West Ham,Newcastle,1,1,False,False,0.65,0.72,3.08,3.41,4.4,4.8,1645273800
+Southampton,Everton,2,0,True,False,1.07,1.17,2.57,2.93,2.65,2.97,1645282800
+Liverpool,Norwich,3,1,True,False,0.13,0.15,8.37,9.1,21.73,26.59,1645282800
+Crystal Palace,Chelsea,0,1,False,True,4.57,5.49,2.76,3.08,0.69,0.75,1645282800
+Brighton,Burnley,0,3,False,True,0.63,0.72,2.79,2.95,5.28,6.1,1645282800
+Aston Villa,Watford,0,1,False,True,0.65,0.68,2.96,3.12,4.64,5.35,1645282800
+Arsenal,Brentford,2,1,True,False,0.53,0.61,3.0,3.58,6.32,7.0,1645282800
+Manchester City,Tottenham,2,3,False,True,0.29,0.33,5.02,5.5,9.72,10.5,1645291800
+Leeds,Manchester Utd,2,4,False,True,3.73,4.32,3.13,3.45,0.71,0.91,1645365600
+Wolves,Leicester,2,1,True,False,1.22,1.33,2.26,2.52,2.61,2.85,1645374600
+Watford,Crystal Palace,1,4,False,True,1.96,2.05,2.12,2.2,1.64,1.7,1645644600
+Burnley,Tottenham,1,0,True,False,3.68,3.9,2.63,2.78,0.82,0.88,1645644600
+Liverpool,Leeds,6,0,True,False,0.18,0.21,7.13,7.8,13.91,16.0,1645645500
+Arsenal,Wolves,2,1,True,False,0.67,0.73,2.72,2.86,4.93,5.3,1645731900
+Southampton,Norwich,2,0,True,False,0.51,0.57,3.5,4.05,5.64,6.0,1645819200
+Leeds,Tottenham,0,4,False,True,2.78,3.18,2.81,2.98,0.97,1.02,1645878600
+Manchester Utd,Watford,0,0,False,False,0.38,0.4,4.06,4.29,7.63,8.14,1645887600
+Crystal Palace,Burnley,1,1,False,False,0.9,0.95,2.33,2.43,3.74,4.2,1645887600
+Brentford,Newcastle,0,2,False,True,1.38,1.52,2.1,2.17,2.4,2.6,1645887600
+Brighton,Aston Villa,0,2,False,True,1.22,1.27,2.27,2.4,2.49,2.64,1645889400
+Everton,Manchester City,0,1,False,True,11.19,13.75,5.34,5.8,0.26,0.27,1645896600
+West Ham,Wolves,1,0,True,False,0.94,0.97,2.36,2.41,3.53,3.73,1645970400
+Burnley,Leicester,0,2,False,True,1.95,2.18,2.3,2.4,1.54,1.63,1646163900
+Leicester,Leeds,1,0,True,False,1.02,1.14,2.77,2.85,2.66,2.92,1646483400
+Wolves,Crystal Palace,0,2,False,True,1.37,1.45,2.05,2.16,2.48,2.77,1646492400
+Norwich,Brentford,1,3,False,True,2.14,2.43,2.18,2.26,1.47,1.55,1646492400
+Newcastle,Brighton,2,1,True,False,1.67,1.8,2.13,2.29,1.89,2.0,1646492400
+Burnley,Chelsea,0,4,False,True,6.44,7.09,3.07,3.3,0.52,0.55,1646492400
+Aston Villa,Southampton,4,0,True,False,1.25,1.32,2.53,2.72,2.24,2.48,1646492400
+Liverpool,West Ham,1,0,True,False,0.25,0.27,5.8,6.62,10.41,11.75,1646501400
+Watford,Arsenal,2,3,False,True,5.73,6.17,3.26,3.4,0.54,0.56,1646575200
+Manchester City,Manchester Utd,4,1,True,False,0.42,0.48,4.03,4.4,6.73,8.0,1646584200
+Tottenham,Everton,5,0,True,False,0.72,0.77,2.9,3.0,4.07,4.4,1646683200
+Wolves,Watford,4,0,True,False,0.93,0.97,2.45,2.52,3.43,3.67,1646940600
+Southampton,Newcastle,1,2,False,True,1.0,1.08,2.55,2.69,2.98,3.41,1646940600
+Norwich,Chelsea,1,3,False,True,8.68,10.0,3.95,4.1,0.37,0.4,1646940600
+Leeds,Aston Villa,0,3,False,True,1.85,2.13,2.58,2.65,1.46,1.55,1646941500
+Brighton,Liverpool,0,2,False,True,5.83,6.2,3.65,3.81,0.48,0.51,1647088200
+Brentford,Burnley,2,0,True,False,1.1,1.19,2.32,2.44,2.83,3.0,1647097200
+Manchester Utd,Tottenham,3,2,True,False,1.34,1.5,2.53,2.84,2.09,2.2,1647106200
+West Ham,Aston Villa,2,1,True,False,1.52,1.61,2.29,2.41,1.98,2.22,1647180000
+Southampton,Watford,1,2,False,True,0.66,0.72,3.11,3.27,4.24,4.6,1647180000
+Leeds,Norwich,2,1,True,False,0.63,0.66,3.18,3.38,4.46,4.75,1647180000
+Everton,Wolves,0,1,False,True,1.28,1.35,2.13,2.3,2.6,2.84,1647180000
+Chelsea,Newcastle,1,0,True,False,0.42,0.44,3.86,4.0,7.19,7.76,1647180000
+Arsenal,Leicester,2,0,True,False,0.44,0.46,3.87,4.1,6.37,6.92,1647189000
+Crystal Palace,Manchester City,0,0,False,False,9.0,10.85,4.44,4.65,0.34,0.37,1647288000
+Brighton,Tottenham,0,2,False,True,2.65,2.86,2.39,2.49,1.14,1.2,1647459000
+Arsenal,Liverpool,0,2,False,True,2.64,2.88,2.68,2.83,1.06,1.12,1647461700
+Everton,Newcastle,1,0,True,False,1.44,1.56,2.22,2.31,2.18,2.28,1647546300
+Wolves,Leeds,2,3,False,True,1.2,1.29,2.4,2.6,2.47,2.64,1647633600
+Aston Villa,Arsenal,0,1,False,True,1.99,2.14,2.41,2.5,1.45,1.55,1647693000
+Leicester,Brentford,2,1,True,False,1.14,1.19,2.4,2.55,2.59,2.7,1647784800
+Tottenham,West Ham,3,1,True,False,0.73,0.77,2.85,3.13,4.15,4.35,1647793800
+Liverpool,Watford,2,0,True,False,0.16,0.17,7.36,8.39,17.26,20.83,1648899000
+Wolves,Aston Villa,2,1,True,False,2.07,2.16,2.07,2.18,1.6,1.63,1648908000
+Leeds,Southampton,1,1,False,False,1.45,1.55,2.59,2.67,1.85,1.96,1648908000
+Chelsea,Brentford,1,4,False,True,0.39,0.43,3.75,4.0,8.17,9.0,1648908000
+Burnley,Manchester City,0,2,False,True,15.14,18.0,5.93,6.8,0.2,0.23,1648908000
+Brighton,Norwich,0,0,False,False,0.49,0.55,3.27,3.5,6.52,7.2,1648908000
+Manchester Utd,Leicester,1,1,False,False,0.57,0.63,3.48,3.76,4.7,5.05,1648917000
+West Ham,Everton,2,1,True,False,0.79,0.83,2.79,2.9,3.68,3.9,1648990800
+Tottenham,Newcastle,5,1,True,False,0.55,0.58,3.28,3.48,5.32,5.8,1648999800
+Crystal Palace,Arsenal,3,0,True,False,3.14,3.46,2.39,2.5,1.01,1.07,1649098800
+Burnley,Everton,3,2,True,False,1.56,1.7,2.12,2.22,2.08,2.2,1649269800
+Newcastle,Wolves,1,0,True,False,1.01,1.07,2.28,2.41,3.3,3.6,1649444400
+Everton,Manchester Utd,1,0,True,False,3.08,3.34,2.81,2.93,0.9,0.92,1649503800
+Watford,Leeds,0,3,False,True,1.8,1.91,2.43,2.58,1.58,1.68,1649512800
+Southampton,Chelsea,0,6,False,True,2.93,3.2,2.61,2.72,1.0,1.1,1649512800
+Arsenal,Brighton,1,2,False,True,0.65,0.68,2.77,2.94,5.13,5.43,1649512800
+Aston Villa,Tottenham,0,4,False,True,2.35,2.47,2.51,2.66,1.21,1.26,1649521800
+Norwich,Burnley,2,0,True,False,2.14,2.23,2.39,2.58,1.36,1.5,1649595600
+Leicester,Crystal Palace,2,1,True,False,1.53,1.64,2.29,2.45,1.95,2.19,1649595600
+Brentford,West Ham,2,0,True,False,1.68,1.85,2.3,2.44,1.76,1.95,1649595600
+Manchester City,Liverpool,2,2,False,False,0.98,1.05,2.76,3.12,2.79,2.98,1649604600
+Tottenham,Brighton,0,1,False,True,0.51,0.55,3.48,3.6,5.55,6.1,1650108600
+Watford,Brentford,1,2,False,True,2.03,2.23,2.34,2.5,1.47,1.58,1650117600
+Southampton,Arsenal,1,0,True,False,2.98,3.22,2.73,2.83,0.94,1.01,1650117600
+Manchester Utd,Norwich,3,2,True,False,0.29,0.3,5.3,5.5,9.02,10.0,1650117600
+West Ham,Burnley,1,1,False,False,0.81,0.88,2.74,2.88,3.62,3.98,1650201300
+Newcastle,Leicester,2,1,True,False,1.06,1.14,2.52,2.61,2.75,3.0,1650201300
+Liverpool,Manchester Utd,4,0,True,False,0.35,0.4,4.61,4.95,7.74,8.6,1650394800
+Newcastle,Crystal Palace,1,0,True,False,1.29,1.36,2.23,2.39,2.45,2.65,1650480300
+Everton,Leicester,1,1,False,False,1.57,1.67,2.31,2.4,1.9,2.0,1650480300
+Chelsea,Arsenal,2,4,False,True,0.91,0.99,2.53,2.65,3.38,3.7,1650480300
+Manchester City,Brighton,3,0,True,False,0.23,0.24,5.56,5.95,13.66,16.0,1650481200
+Burnley,Southampton,2,0,True,False,1.67,1.73,2.35,2.59,1.74,1.8,1650566700
+Arsenal,Manchester Utd,3,1,True,False,1.05,1.13,2.65,2.8,2.69,2.8,1650713400
+Norwich,Newcastle,0,3,False,True,2.51,2.73,2.33,2.47,1.22,1.31,1650722400
+Manchester City,Watford,5,1,True,False,0.12,0.13,8.9,10.0,24.47,27.69,1650722400
+Leicester,Aston Villa,0,0,False,False,2.0,2.13,2.34,2.63,1.48,1.55,1650722400
+Brentford,Tottenham,0,0,False,False,3.85,4.32,2.97,3.2,0.73,0.76,1650731400
+Chelsea,West Ham,1,0,True,False,0.42,0.45,3.88,4.26,6.96,7.6,1650805200
+Burnley,Wolves,1,0,True,False,1.57,1.7,2.14,2.46,2.06,2.17,1650805200
+Brighton,Southampton,2,2,False,False,1.07,1.16,2.4,2.64,2.85,3.1,1650805200
+Liverpool,Everton,2,0,True,False,0.2,0.21,6.26,6.7,14.46,16.0,1650814200
+Crystal Palace,Leeds,0,0,False,False,1.4,1.5,2.45,2.57,2.02,2.17,1650913200
+Manchester Utd,Chelsea,1,1,False,False,2.54,2.75,2.65,2.99,1.09,1.16,1651171500
+Newcastle,Liverpool,0,1,False,True,5.45,6.0,3.35,3.55,0.54,0.59,1651318200
+Wolves,Brighton,0,3,False,True,1.75,1.85,2.01,2.13,1.94,2.0,1651327200
+Watford,Burnley,1,2,False,True,1.63,1.76,2.22,2.33,1.88,1.97,1651327200
+Southampton,Crystal Palace,1,2,False,True,1.45,1.53,2.17,2.25,2.18,2.4,1651327200
+Aston Villa,Norwich,2,0,True,False,0.42,0.5,3.83,4.19,6.94,7.7,1651327200
+Leeds,Manchester City,0,4,False,True,8.49,9.25,4.83,5.1,0.32,0.34,1651336200
+Tottenham,Leicester,3,1,True,False,0.37,0.39,4.33,4.83,7.78,8.5,1651410000
+Everton,Chelsea,1,0,True,False,4.22,4.57,2.9,3.0,0.71,0.73,1651410000
+West Ham,Arsenal,1,2,False,True,3.42,3.62,2.9,3.15,0.82,0.9,1651419000
+Manchester Utd,Brentford,3,0,True,False,0.75,0.8,3.0,3.15,3.66,4.05,1651518000
+Crystal Palace,Watford,1,0,True,False,0.69,0.73,2.85,2.95,4.39,4.75,1651932000
+Chelsea,Wolves,2,2,False,False,0.38,0.41,3.95,4.25,8.4,10.0,1651932000
+Burnley,Aston Villa,1,3,False,True,2.1,2.23,2.18,2.34,1.5,1.63,1651932000
+Brentford,Southampton,3,0,True,False,1.12,1.16,2.52,2.65,2.57,2.65,1651932000
+Brighton,Manchester Utd,4,0,True,False,2.04,2.28,2.37,2.5,1.45,1.6,1651941000
+Liverpool,Tottenham,1,1,False,False,0.43,0.47,4.17,4.45,6.08,6.6,1651949100
+Norwich,West Ham,0,4,False,True,3.88,4.14,3.03,3.2,0.71,0.74,1652014800
+Leicester,Everton,1,2,False,True,1.68,1.79,2.29,2.4,1.77,1.85,1652014800
+Arsenal,Leeds,2,1,True,False,0.53,0.57,3.55,3.9,5.16,5.6,1652014800
+Manchester City,Newcastle,5,0,True,False,0.18,0.2,6.95,7.6,15.88,18.26,1652023800
+Aston Villa,Liverpool,1,2,False,True,5.43,5.84,3.63,3.8,0.51,0.54,1652209200
+Leeds,Chelsea,0,3,False,True,3.9,4.25,3.11,3.25,0.69,0.73,1652293800
+Watford,Everton,0,0,False,False,4.81,5.4,2.81,2.94,0.65,0.68,1652294700
+Leicester,Norwich,3,0,True,False,0.34,0.36,4.58,4.8,8.18,9.25,1652294700
+Wolves,Manchester City,1,5,False,True,11.21,13.0,5.23,5.75,0.26,0.3,1652296500
+Tottenham,Arsenal,3,0,True,False,1.28,1.35,2.51,2.6,2.25,2.34,1652381100
+Tottenham,Burnley,1,0,True,False,0.32,0.33,4.63,4.8,9.18,10.0,1652612400
+Wolves,Norwich,1,1,False,False,0.54,0.57,3.48,3.7,5.12,6.0,1652619600
+West Ham,Manchester City,2,2,False,False,6.95,7.7,4.22,4.45,0.4,0.42,1652619600
+Watford,Leicester,1,5,False,True,4.1,4.54,2.99,3.2,0.7,0.76,1652619600
+Leeds,Brighton,1,1,False,False,1.66,1.75,2.46,2.63,1.7,1.88,1652619600
+Aston Villa,Crystal Palace,1,1,False,False,0.9,1.09,2.55,2.66,3.41,3.99,1652619600
+Everton,Brentford,2,3,False,True,0.92,0.99,2.59,2.84,3.22,3.72,1652628600
+Newcastle,Arsenal,2,0,True,False,3.34,3.7,2.87,3.1,0.83,0.9,1652727600
+Southampton,Liverpool,1,2,False,True,5.62,6.3,3.96,4.25,0.47,0.51,1652813100
+Everton,Crystal Palace,3,2,True,False,0.86,0.9,2.56,2.9,3.67,3.95,1652985900
+Chelsea,Leicester,1,1,False,False,0.43,0.45,3.94,4.26,6.61,7.17,1652986800
+Aston Villa,Burnley,1,1,False,False,1.04,1.1,2.48,2.91,2.88,3.1,1652986800
+Norwich,Tottenham,0,5,False,True,9.21,11.0,4.69,5.25,0.31,0.35,1653231600
+Manchester City,Aston Villa,3,2,True,False,0.17,0.2,7.33,7.8,15.41,18.0,1653231600
+Liverpool,Wolves,3,1,True,False,0.15,0.17,8.22,9.9,17.51,20.0,1653231600
+Leicester,Southampton,4,1,True,False,0.71,0.77,3.31,3.45,3.52,3.76,1653231600
+Crystal Palace,Manchester Utd,1,0,True,False,1.83,2.01,2.52,2.61,1.52,1.59,1653231600
+Chelsea,Watford,2,1,True,False,0.19,0.22,6.63,7.3,15.48,18.0,1653231600
+Burnley,Newcastle,1,2,False,True,1.46,1.55,2.32,2.67,2.05,2.2,1653231600
+Brighton,West Ham,3,1,True,False,1.65,1.9,2.48,2.58,1.7,1.86,1653231600
+Brentford,Leeds,1,2,False,True,1.35,1.43,2.81,2.94,1.89,2.12,1653231600
+Arsenal,Everton,5,1,True,False,0.34,0.36,4.55,4.88,8.02,9.0,1653231600
