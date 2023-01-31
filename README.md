@@ -51,6 +51,12 @@ elo_rating(rating, k_factor, score, opponent_rating, is_home)
 
 This function takes a team's current Elo rating, the K-factor to use for the calculation, the team's score, the opponent's rating, and a Boolean representing whether the team is playing at home or away. The function then calculates and returns the team's new Elo rating based on the input data.
 
+```
+plot_elo_bookies_scatter
+```
+
+The function reads the data from a match results csv file and calculates a scatter plot of Elo vs bookmakers probabilities. It then creates four subplots, each with the Elo rating on the x-axis and the bookies probabilities on the y-axis. The subplots are split into Home Wins, Home Losses, Away Wins, and Away Losses. It also adds a legend, x and y labels, and a y=x profit line to each subplot. Finally, the graph is saved to the specified output file.
+
 ## Author
 
 Shaun Billows
