@@ -1,35 +1,17 @@
 import logging
-from logger import Logger
-from generate_match_results_csv.generate_match_results_csv import JSONProcessor
+# from generate_match_results_csv.generate_match_results_csv import generate_match_results_csv
 from elo_ratings_calculator import calculate_elo_ratings_for_each_week, calculate_elo_ratings_for_each_match
 from graphs import plot_elo_bookies_scatter
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
 
-    """ Section 1: Process raw data """
-    
-    # # # Set up input and output file paths
-    # json_file_20_21 = './raw-data/20-21.json'
-    # output_dir_20_21 = './processed-data/20-21.csv'
-    # json_file_19_20 = './raw-data/19-20.json'
-    # output_dir_19_20 = './processed-data/19-20.csv'
-    # json_file_21_22 = './raw-data/21-22.json'
-    # output_dir_21_22 = './processed-data/21-22.csv'
-    # json_file_22_23 = './raw-data/22-23.json'
-    # output_dir_22_23 = './processed-data/22-23.csv'
-
-    # # Process raw data for 19-20 season
-    # processor = JSONProcessor("./raw-data/19-20", "./processed-data/19-20.csv")
-    # processor.generate_match_results_csv()
-    # # Process raw data for 19-20 season
-    # processor = JSONProcessor("./raw-data/20-21", "./processed-data/20-21.csv")
-    # processor.generate_match_results_csv()
-    # # Process raw data for 19-20 season
-    # processor = JSONProcessor("./raw-data/21-22", "./processed-data/21-22.csv")
-    # processor.generate_match_results_csv()
-    # # Process raw data for 19-20 season
-    # processor = JSONProcessor("./raw-data/22-23", "./processed-data/22-23.csv")
-    # processor.generate_match_results_csv()
+    """ Section 1: Process raw data (WIP) """
+    # Process raw data
+    # 19-20
+    # generate_match_results_csv("./raw-data/20-21", './processed-data/22-23csv')
+    # process_json_files("./raw-data/20-21", process_json_callback)
+    # save_to_csv(results, './processed-data/20-21.csv')
 
     """ Section 2: Calculate Elo ratings for each week """
 
