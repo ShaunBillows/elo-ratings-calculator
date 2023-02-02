@@ -30,6 +30,8 @@ Scatter plots showing the Elo rating probabilities vs the bookmakers probabiliti
 
 - To generate the elo ratings, follow these instructions. Delete all the csv and png files in the 'elo-ratings' folder, but do not delete the directories (folders). Navigate to main.py. Run only section 2. Next, run only section 3. Finally, run only section 4.
 
+## Modules
+
 ### Elo Rating Calculator Module
 
 A module that calculates Elo ratings for each match in a Premier League season. The module provides the following functions:
@@ -83,9 +85,26 @@ Takes in a CSV file of match data and calculates the Elo ratings for each match.
 csv_file (str): The path to the CSV file containing the match data.
 output_file (str): The path to the output CSV file to save the results.
 
-### Logger Module (WIP)
+### Logger Module
 
-The Logger module provides logging functionality for the project.
+A module for centralized and customisable logging for the application.
+
+#### Class Logger
+
+This class contains the following methods:
+
+##### Method: init
+
+Initializes the logger with specified log file name and level.
+
+###### Inputs:
+
+- log_file (str, optional): The name of the log file. Defaults to 'application.log'.
+  level (int, optional): The logging level. Defaults to logging.DEBUG.
+
+###### Outputs:
+
+- A logger instance that logs to both file and console.
 
 ### Grapher Module (WIP)
 
