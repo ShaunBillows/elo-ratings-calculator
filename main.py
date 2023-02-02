@@ -1,6 +1,6 @@
 from generate_match_results_csv import JSONProcessor
 from elo_ratings_calculator import EloCalculator
-from grapher import plot_elo_bookies_scatter
+from grapher import Grapher
 
 if __name__ == "__main__":
 
@@ -96,8 +96,11 @@ if __name__ == "__main__":
     csv_file_22_23 = './elo-ratings/22-23/match/index.csv'
     output_file_22_23 = './elo-ratings/22-23/match/elo-vs-bookies-probabilities-22-23.png'
 
+    # # initialise an instance of the Grapher class
+    grapher = Grapher()
+
     # Create scatter graphs for Elo vs bookmakers probabilities
-    plot_elo_bookies_scatter(csv_file=csv_file_19_20, output_file=output_file_19_20, title=title_19)
-    plot_elo_bookies_scatter(csv_file=csv_file_20_21, output_file=output_file_20_21, title=title_20)
-    plot_elo_bookies_scatter(csv_file=csv_file_21_22, output_file=output_file_21_22, title=title_21)
-    plot_elo_bookies_scatter(csv_file=csv_file_22_23, output_file=output_file_22_23, title=title_22)
+    grapher.plot_elo_bookies_scatter(csv_file=csv_file_19_20, output_file=output_file_19_20, title=title_19)
+    grapher.plot_elo_bookies_scatter(csv_file=csv_file_20_21, output_file=output_file_20_21, title=title_20)
+    grapher.plot_elo_bookies_scatter(csv_file=csv_file_21_22, output_file=output_file_21_22, title=title_21)
+    grapher.plot_elo_bookies_scatter(csv_file=csv_file_22_23, output_file=output_file_22_23, title=title_22)
