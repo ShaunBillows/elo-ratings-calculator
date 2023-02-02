@@ -2,9 +2,9 @@
 
 This package allows you to calculate Elo ratings for a football league using match data. The Elo rating system is a method for calculating the relative skill levels of players in two-player games such as chess, Go, and football. This package can be used to predict the outcome of matches between teams, and track the performance of teams over the course of a season.
 
-Scatter plots showing the Elo rating probabilities vs the bookmakers probabilities for the last half of each season have been recently added!
+Scatter plots showing the Elo rating probabilities vs the bookmakers probabilities for the last half of each season have been recently added! You can find them in the elo_ratings folder.
 
-**Note**: The match data also contains the average and max odds for each match based on a range of bookmakers odds. The project will be extended to use these to test the algorithm in order to create a betting system app. Another possibility is to add other statistical models such as the poisson distribution to predict the number of goals scored to, or more advanced models such as training a neural network. It would be interesting to compare the effectiveness of all the different methods.
+**Note**: The match data also contains the average and max odds for each match based on a range of bookmakers odds. This project will be extended to use these to test the Elo rating model. Additionally, this project will be extended to compare the performance of a wide range of models, from the basic Poisson distrubution to the modern machine learning approach.
 
 ## Features
 
@@ -28,34 +28,76 @@ Scatter plots showing the Elo rating probabilities vs the bookmakers probabiliti
 
 - To generate the graphs, run main.py.
 
-- To generate the elo ratings, follow these instructions. Delete all the csv and png files in the 'elo-ratings' folder, but do not delete the directories (folders). Navigate to main.py. Run only section 2. Run only section 3. Finally run only section 4.
+- To generate the elo ratings, follow these instructions. Delete all the csv and png files in the 'elo-ratings' folder, but do not delete the directories (folders). Navigate to main.py. Run only section 2. Next, run only section 3. Finally, run only section 4.
 
-```
-calculate_elo_ratings_for_one_week(csv_file, output_file, weeks)
-```
+### Elo Rating Calculator Module
 
-This function takes a csv file containing match results, a file name for the output csv file, and an integer representing the week number. The function then calculates the Elo ratings for each team at the specified week and outputs the results to the specified output file.
+A module that calculates Elo ratings for each match in a Premier League season. The module provides the following functions:
 
-- If no week is specified, the function will calculate the Elo ratings for the whole season
-- If too many weeks are specified, the function will prompt the user
+#### Class EloCalculator
 
-```
-calculate_elo_ratings_for_each_week(csv_file, output_folder)
-```
+This class contains the following methods:
 
-This function takes a csv file containing match results and a folder name for the output csv files. The function then calculates the Elo ratings for each team for each week of the dataset and outputs the results to the specified output folder, creating a new file for each week with the format "week-X.csv" where X is the week number.
+##### Method: calculate_individual_elo_ratings
 
-```
-elo_rating(rating, k_factor, score, opponent_rating, is_home)
-```
+Takes in home and away scores, home and away Elo ratings, and returns the new Elo ratings for both teams.
 
-This function takes a team's current Elo rating, the K-factor to use for the calculation, the team's score, the opponent's rating, and a Boolean representing whether the team is playing at home or away. The function then calculates and returns the team's new Elo rating based on the input data.
+###### Inputs:
 
-```
-plot_elo_bookies_scatter
-```
+- home_score (int): The home team's score in the match.
+- away_score (int): The away team's score in the match.
+- home_elo (int): The home team's Elo rating before the match.
+- away_elo (int): The away team's Elo rating before the match.
+
+###### Outputs:
+
+- home_elo (int): The home team's updated Elo rating after the match.
+- away_elo (int): The away team's updated Elo rating after the match.
+
+##### Method: calculate_elo_ratings_for_one_week
+
+Takes in a CSV file of match data and calculates the Elo ratings for a single week. The results are saved to an output CSV file.
+
+###### Inputs:
+
+- csv_file (str): The path to the CSV file containing the match data.
+- output_file (str): The path to the output CSV file to save the results.
+- weeks (int, optional): The number of weeks to calculate the Elo ratings for. If not specified, all matches in the CSV file are processed.
+
+##### Method: calculate_elo_ratings_for_each_week
+
+Takes in a CSV file of match data and calculates the Elo ratings for each week of the season. The results are saved to separate output CSV files, one for each week.
+
+###### Inputs:
+
+csv_file (str): The path to the CSV file containing the match data.
+output_dir (str): The directory to save the output CSV files.
+nb_weeks_in_season (int): The number of weeks in the season.
+
+##### Method: calculate_elo_ratings_for_each_match
+
+Takes in a CSV file of match data and calculates the Elo ratings for each match. The results are saved to an output CSV file.
+
+####### Inputs:
+
+csv_file (str): The path to the CSV file containing the match data.
+output_file (str): The path to the output CSV file to save the results.
+
+### Logger Module (WIP)
+
+The Logger module provides logging functionality for the project.
+
+### Grapher Module (WIP)
+
+The Logger module provides logging functionality for the project.
+
+- ##### Method: plot_elo_bookies_scatter
 
 The function reads the data from a match results csv file and calculates a scatter plot of Elo vs bookmakers probabilities. It then creates four subplots, each with the Elo rating on the x-axis and the bookies probabilities on the y-axis. The subplots are split into Home Wins, Home Losses, Away Wins, and Away Losses. It also adds a legend, x and y labels, and a y=x profit line to each subplot. Finally, the graph is saved to the specified output file.
+
+### Generate Match Results Module (WIP)
+
+The Generate Match Results module generates the match results data for a season.
 
 ## Author
 

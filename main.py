@@ -1,6 +1,6 @@
 from generate_match_results_csv import JSONProcessor
 from elo_ratings_calculator import EloCalculator
-from graphs import plot_elo_bookies_scatter
+from grapher import plot_elo_bookies_scatter
 
 if __name__ == "__main__":
 
@@ -80,7 +80,7 @@ if __name__ == "__main__":
     # # # Calculate Elo ratings for 22-23 season
     # elo_calculator.calculate_elo_ratings_for_each_match(csv_file_22_23, output_file_22_23)
 
-    # """ Section 4: Scatter plot Elo probability vs bookmakers probability (WIP)"""
+    """ Section 4: Scatter plot Elo probability vs bookmakers probability (WIP)"""
 
     # Set up input and output file paths
     title_19 = '19-20'

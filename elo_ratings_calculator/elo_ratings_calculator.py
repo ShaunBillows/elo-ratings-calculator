@@ -3,6 +3,22 @@ import datetime
 from logger import Logger
 
 class EloCalculator:
+    """
+    This class calculates Elo ratings for matches in a Premier League season from a CSV file containing processed matches data.
+
+    Methods:
+        calculate_individual_elo_ratings(home_score: int, away_score: int, home_elo: int, away_elo: int) -> Tuple[int, int]:
+            Calculates individual Elo ratings based on the match result and the initial ratings of both teams.
+        
+        calculate_elo_ratings_for_one_week(csv_file:str, output_file:str, weeks: int = None):
+            Calculates Elo ratings for one week of matches and saves the result to an output file.
+        
+        calculate_elo_ratings_for_each_week(csv_file:str, output_dir:str, nb_weeks_in_season:int):
+            Calculates Elo ratings for each week in a season, up to a specified week, and saves the results as CSV files in the output directory.
+        
+        calculate_elo_ratings_for_each_match(csv_file:str, output_file:str):
+            Calculates Elo ratings for each match in a season and saves the results to an output file.
+    """
 
     def __init__(self):
         self.logger = Logger().logger
@@ -100,17 +116,36 @@ class EloCalculator:
         self.logger.info(f'Elo ratings for week {weeks} have been calculated and saved to {output_file}')
 
     def calculate_elo_ratings_for_each_week(self, csv_file:str, output_dir:str, nb_weeks_in_season:int):
+        """
+        Calculates the Elo ratings of all teams in a premier league season based on the outcome of games, and saves the ratings for each week to a csv file.
+        The function takes a csv file containing match information as an input, and the number of weeks in the season, and outputs the Elo ratings as csv files, one for each week.
+        
+        Args:
+            csv_file (str): path to the csv file containing the match information
+            output_dir (str): path to the directory where the Elo ratings will be saved as csv files
+            nb_weeks_in_season (int): the number of weeks in the season
+            
+        """
+
         try:
             for week in range(nb_weeks_in_season):
                 # call the calculate_elo_ratings function for each week
                 self.calculate_elo_ratings_for_one_week(csv_file=csv_file, output_file=f'{output_dir}/week-{week}.csv', weeks=week)
             self.logger.info(f'Elo ratings for the season have been calculated and saved to {output_dir}')
+
         except FileNotFoundError as e:
             self.logger.error(f'File not found: {e}')
         except Exception as e:
             self.logger.error(f'An error occurred: {e}')
 
     def calculate_elo_ratings_for_each_match(self, csv_file:str, output_file:str):
+        """
+        Calculates Elo ratings for each match in a Premier League season and outputs the results to a specified CSV file, while also appending selected match data, such as bookmakers' odds, date, and results, from the input CSV file.
+        Args:
+            csv_file: A string indicating the file path of the input CSV containing processed match results data.
+            output_file: A string indicating the file path to save the output CSV with calculated Elo ratings and appended match data.
+        """
+
         # retrieve the matches information from a csv file
         try:
             df = pd.read_csv(csv_file, na_values=["N/A", "-", "?"])
