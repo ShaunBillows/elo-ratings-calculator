@@ -1,7 +1,5 @@
-import logging
-from logger import Logger
-from generate_match_results_csv.generate_match_results_csv import JSONProcessor
-from elo_ratings_calculator import calculate_elo_ratings_for_each_week, calculate_elo_ratings_for_each_match
+from generate_match_results_csv import JSONProcessor
+from elo_ratings_calculator import EloCalculator
 from graphs import plot_elo_bookies_scatter
 
 if __name__ == "__main__":
@@ -45,22 +43,18 @@ if __name__ == "__main__":
 
     # # # Number of weeks in a season (0 - 39 weeks)
     # nb_weeks_in_season = 39
+
+    # # initialise an instance of the EloCalculator class
+    # elo_calculator = EloCalculator()
     
     # # Calculate Elo ratings for 20-21 season
-    # calculate_elo_ratings_for_each_week(csv_file_20_21, output_dir_20_21, nb_weeks_in_season)
-    # logging.info(f'Elo ratings for weeks in the 20-21 season have been calculated and saved to {output_dir_20_21}')
-
-    # # Calculate Elo ratings for 19-20 season
-    # calculate_elo_ratings_for_each_week(csv_file_19_20, output_dir_19_20, nb_weeks_in_season)
-    # logging.info(f'Elo ratings for weeks in the 19-20 season have been calculated and saved to {output_dir_19_20}')
-
-    # # Calculate Elo ratings for 21-22 season
-    # calculate_elo_ratings_for_each_week(csv_file_21_22, output_dir_21_22, nb_weeks_in_season)
-    # logging.info(f'Elo ratings for weeks in the 21-22 season have been calculated and saved to {output_dir_21_22}')
-    
-    # # Calculate Elo ratings for 22-23 season
-    # calculate_elo_ratings_for_each_week(csv_file_22_23, output_dir_22_23, nb_weeks_in_season)
-    # logging.info(f'Elo ratings for weeks in the 22-23 season have been calculated and saved to {output_dir_22_23}')
+    # elo_calculator.calculate_elo_ratings_for_each_week(csv_file_20_21, output_dir_20_21, nb_weeks_in_season)
+    # # # Calculate Elo ratings for 19-20 season
+    # elo_calculator.calculate_elo_ratings_for_each_week(csv_file_19_20, output_dir_19_20, nb_weeks_in_season)
+    # # # Calculate Elo ratings for 21-22 season
+    # elo_calculator.calculate_elo_ratings_for_each_week(csv_file_21_22, output_dir_21_22, nb_weeks_in_season)
+    # # # Calculate Elo ratings for 22-23 season
+    # elo_calculator.calculate_elo_ratings_for_each_week(csv_file_22_23, output_dir_22_23, nb_weeks_in_season)
 
     """ Section 3: Calculate Elo ratings for each match """
 
@@ -74,23 +68,19 @@ if __name__ == "__main__":
     # csv_file_22_23 = './processed-data/22-23.csv'
     # output_file_22_23 = './elo-ratings/22-23/match/index.csv'
 
+    # # # initialise an instance of the EloCalculator class
+    # elo_calculator = EloCalculator()
+
     # # Calculate Elo ratings for 20-21 season
-    # calculate_elo_ratings_for_each_match(csv_file_20_21, output_file_20_21)
-    # logging.info(f'Elo ratings for matches in the 20-21 season have been calculated and saved to {output_file_20_21}')
-
+    # elo_calculator.calculate_elo_ratings_for_each_match(csv_file_20_21, output_file_20_21)
     # # Calculate Elo ratings for 19-20 season
-    # calculate_elo_ratings_for_each_match(csv_file_19_20, output_file_19_20)
-    # logging.info(f'Elo ratings for matches in the 19-20 season have been calculated and saved to {output_file_19_20}')
-
+    # elo_calculator.calculate_elo_ratings_for_each_match(csv_file_19_20, output_file_19_20)
     # # Calculate Elo ratings for 21-22 season
-    # calculate_elo_ratings_for_each_match(csv_file_21_22, output_file_21_22)
-    # logging.info(f'Elo ratings for matches in the 21-22 season have been calculated and saved to {output_file_21_22}')
-    
+    # elo_calculator.calculate_elo_ratings_for_each_match(csv_file_21_22, output_file_21_22)
     # # # Calculate Elo ratings for 22-23 season
-    # calculate_elo_ratings_for_each_match(csv_file_22_23, output_file_22_23)
-    # logging.info(f'Elo ratings for matches in the 22-23 season have been calculated and saved to {output_file_22_23}')
+    # elo_calculator.calculate_elo_ratings_for_each_match(csv_file_22_23, output_file_22_23)
 
-    """ Section 4: Scatter plot Elo probability vs bookmakers probability (WIP)"""
+    # """ Section 4: Scatter plot Elo probability vs bookmakers probability (WIP)"""
 
     # Set up input and output file paths
     title_19 = '19-20'

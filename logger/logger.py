@@ -5,7 +5,7 @@ logger = logging.getLogger(__name__)
 
 class Logger:
     """
-    This class provides a centralized and customizable logging solution for the application.
+    This class provides a centralized and customisable logging solution for the application.
     """
 
     def __init__(self, log_file='application.log', level=logging.DEBUG):
