@@ -8,7 +8,7 @@ Scatter plots showing the Elo rating probabilities vs the bookmakers probabiliti
 
 ## Features
 
-- Initializes Elo ratings for all teams in a league
+- Initialises Elo ratings for all teams in a league
 - Iterates through each game and updates Elo ratings for both teams
 - User can specify the number of weeks into the season to calculate the Elo ratings up to.
 - User can calculate the Elo ratings for each week in a season.
@@ -87,7 +87,7 @@ output_file (str): The path to the output CSV file to save the results.
 
 ### Logger Module
 
-A module for centralized and customisable logging for the application.
+A module for centralised and customisable logging for the application.
 
 #### Class Logger
 
@@ -95,7 +95,7 @@ This class contains the following methods:
 
 ##### Method: init
 
-Initializes the logger with specified log file name and level.
+Initialises the logger with specified log file name and level.
 
 ###### Inputs:
 
