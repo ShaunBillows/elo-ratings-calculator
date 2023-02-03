@@ -4,7 +4,7 @@ This package allows you to calculate Elo ratings for a football league using mat
 
 Scatter plots showing the Elo rating probabilities vs the bookmakers probabilities for the last half of each season have been recently added! They can be found in data/results/elo-ratings/season/match-data.
 
-**Note**: The match data also contains the average and max odds for each match based on a range of bookmakers odds. This project will be extended to use these to test the Elo rating model. Additionally, this project will be extended to compare the performance of a wide range of models, from the basic Poisson distrubution to the modern machine learning approach.
+**Note**: The match data also contains the average and max odds for each match based on a range of bookmakers odds. This project will be extended to use these to test the Elo rating model. Additionally, this project will be extended to compare the performance of a wide range of models, from the basic Poisson distribution to the modern machine learning approach.
 
 ## Features
 
@@ -24,105 +24,102 @@ Scatter plots showing the Elo rating probabilities vs the bookmakers probabiliti
 - scipy
 - matplotlib
 
+## Quick Start
+
+If you plan to run this package as a script:
+
+- To generate the Elo vs bookmakers probabilities graph for each season in the dataset, simply run main.py.
+- To generate the Elo ratings, follow these instructions:
+  - Delete all the csv and png files in the elo-ratings folder, but do not delete the directories (folders).
+  - Navigate to main.py.
+  - Run only section 2.
+  - Next, run only section 3.
+  - Finally, run only section 4.
+
 ## Usage
 
-- To generate the graphs, run main.py.
-
-- To generate the elo ratings, follow these instructions. Delete all the csv and png files in the 'elo-ratings' folder, but do not delete the directories (folders). Navigate to main.py. Run only section 2. Next, run only section 3. Finally, run only section 4.
-
-## Modules
-
-### Elo Rating Calculator Module
+### **Elo Rating Calculator Module**
 
 A module that calculates Elo ratings for each match in a Premier League season. The module provides the following functions:
 
-#### Class EloCalculator
+#### **Class:** EloCalculator
 
 This class contains the following methods:
 
-##### Method: calculate_individual_elo_ratings
+- **Method:** calculate_individual_elo_ratings
 
-Takes in home and away scores, home and away Elo ratings, and returns the new Elo ratings for both teams.
+  Takes in home and away scores, home and away Elo ratings, and returns the new Elo ratings for both teams.
 
-###### Inputs:
+  - Inputs:
+    - home_score (int): The home team's score in the match.
+    - away_score (int): The away team's score in the match.
+    - home_elo (int): The home team's Elo rating before the match.
+    - away_elo (int): The away team's Elo rating before the match.
+  - Outputs:
+    - home_elo (int): The home team's updated Elo rating after the match.
+    - away_elo (int): The away team's updated Elo rating after the match.
 
-- home_score (int): The home team's score in the match.
-- away_score (int): The away team's score in the match.
-- home_elo (int): The home team's Elo rating before the match.
-- away_elo (int): The away team's Elo rating before the match.
+- **Method:** calculate_elo_ratings_for_one_week
 
-###### Outputs:
+  Takes in a CSV file of match data and calculates the Elo ratings for a single week. The results are saved to an output CSV file.
 
-- home_elo (int): The home team's updated Elo rating after the match.
-- away_elo (int): The away team's updated Elo rating after the match.
+  - Inputs:
+    - csv_file (str): The path to the CSV file containing the match data.
+    - output_file (str): The path to the output CSV file to save the results.
+    - weeks (int, optional): The number of weeks to calculate the Elo ratings for. If not specified, all matches in the CSV file are processed.
 
-##### Method: calculate_elo_ratings_for_one_week
+- **Method:** calculate_elo_ratings_for_each_week
 
-Takes in a CSV file of match data and calculates the Elo ratings for a single week. The results are saved to an output CSV file.
+  Takes in a CSV file of match data and calculates the Elo ratings for each week of the season. The results are saved to separate output CSV files, one for each week.
 
-###### Inputs:
+  - Inputs:
+    - csv_file (str): The path to the CSV file containing the match data.
+    - output_dir (str): The directory to save the output CSV files.
+    - nb_weeks_in_season (int): The number of weeks in the season.
 
-- csv_file (str): The path to the CSV file containing the match data.
-- output_file (str): The path to the output CSV file to save the results.
-- weeks (int, optional): The number of weeks to calculate the Elo ratings for. If not specified, all matches in the CSV file are processed.
+- **Method:** calculate_elo_ratings_for_each_match
 
-##### Method: calculate_elo_ratings_for_each_week
+  Takes in a CSV file of match data and calculates the Elo ratings for each match. The results are saved to an output CSV file.
 
-Takes in a CSV file of match data and calculates the Elo ratings for each week of the season. The results are saved to separate output CSV files, one for each week.
+  - Inputs:
+    - csv_file (str): The path to the CSV file containing the match data.
+    - output_file (str): The path to the output CSV file to save the results.
 
-###### Inputs:
-
-csv_file (str): The path to the CSV file containing the match data.
-output_dir (str): The directory to save the output CSV files.
-nb_weeks_in_season (int): The number of weeks in the season.
-
-##### Method: calculate_elo_ratings_for_each_match
-
-Takes in a CSV file of match data and calculates the Elo ratings for each match. The results are saved to an output CSV file.
-
-####### Inputs:
-
-csv_file (str): The path to the CSV file containing the match data.
-output_file (str): The path to the output CSV file to save the results.
-
-### Logger Module
+### **Logger Module**
 
 A module for centralised and customisable logging for the application.
 
-#### Class Logger
+#### **Class:** Logger
 
 This class contains the following methods:
 
-##### Method: init
+- **Method:** init
 
-Initialises the logger with specified log file name and level.
+  Initialises the logger with specified log file name and level.
 
-###### Inputs:
+  - Inputs:
+    - log_file (str, optional): The name of the log file. Defaults to 'application.log'.
+      level (int, optional): The logging level. Defaults to logging.DEBUG.
+  - Outputs:
+    - A logger instance that logs to both file and console.
 
-- log_file (str, optional): The name of the log file. Defaults to 'application.log'.
-  level (int, optional): The logging level. Defaults to logging.DEBUG.
-
-###### Outputs:
-
-- A logger instance that logs to both file and console.
-
-### Grapher Module
+### **Grapher Module**
 
 A module that provides visual representations of data.
 
-#### Class Grapher
+#### **Class:** Grapher
 
 This class contains the following methods:
 
-##### Method: plot_elo_bookies_scatter
+- **Method:** plot_elo_bookies_scatter
 
-The function reads the data from a match results csv file and calculates a scatter plot of Elo vs bookmakers probabilities. It then creates four subplots, each with the Elo rating on the x-axis and the bookies probabilities on the y-axis. The subplots are split into Home Wins, Home Losses, Away Wins, and Away Losses. It also adds a legend, x and y labels, and a y=x profit line to each subplot. Finally, the graph is saved to the specified output file.
+  The function reads the data from a match results csv file and calculates a scatter plot of Elo vs bookmakers probabilities. It then creates four subplots, each with the Elo rating on the x-axis and the bookies probabilities on the y-axis. The subplots are split into Home Wins, Home Losses, Away Wins, and Away Losses. It also adds a legend, x and y labels, and a y=x profit line to each subplot. Finally, the graph is saved to the specified output file.
 
-### Match Results Generator Module
+### **Match Results Generator Module**
 
-The Match Results Generator module generates the match results dataset for a season, from which the Elo ratings are calculated. This is located in data/processed-data.
+The Match Results Generator module generates the match results dataset for a season, from which the Elo ratings are calculated. The datasets can be found in data/processed-data.
 
-#### Class JSONProcessor
+#### **Class:** JSONProcessor
 
 The Match Results Generator module includes a JSON Processor module, which is a customisable and reusable solution for processing large amounts of JSON files located in the same directory. This module can be used for processing JSON data in other projects, making it a valuable addition to your toolkit.
 
