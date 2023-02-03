@@ -1,4 +1,4 @@
-raw-data
+data/raw-data
 *.cpython-*
 .DS_Store
 notes.md

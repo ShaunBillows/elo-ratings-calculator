@@ -2,7 +2,7 @@
 
 This package allows you to calculate Elo ratings for a football league using match data. The Elo rating system is a method for calculating the relative skill levels of players in two-player games such as chess, Go, and football. This package can be used to predict the outcome of matches between teams, and track the performance of teams over the course of a season.
 
-Scatter plots showing the Elo rating probabilities vs the bookmakers probabilities for the last half of each season have been recently added! You can find them in the elo_ratings folder.
+Scatter plots showing the Elo rating probabilities vs the bookmakers probabilities for the last half of each season have been recently added! They can be found in data/results/elo-ratings/season/match-data.
 
 **Note**: The match data also contains the average and max odds for each match based on a range of bookmakers odds. This project will be extended to use these to test the Elo rating model. Additionally, this project will be extended to compare the performance of a wide range of models, from the basic Poisson distrubution to the modern machine learning approach.
 
