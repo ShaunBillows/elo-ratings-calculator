@@ -1,4 +1,4 @@
-from generate_match_results_csv import JSONProcessor
+from match_results_generator import JSONProcessor
 from elo_ratings_calculator import EloCalculator
 from grapher import Grapher
 

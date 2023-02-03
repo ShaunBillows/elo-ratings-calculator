@@ -118,9 +118,13 @@ This class contains the following methods:
 
 The function reads the data from a match results csv file and calculates a scatter plot of Elo vs bookmakers probabilities. It then creates four subplots, each with the Elo rating on the x-axis and the bookies probabilities on the y-axis. The subplots are split into Home Wins, Home Losses, Away Wins, and Away Losses. It also adds a legend, x and y labels, and a y=x profit line to each subplot. Finally, the graph is saved to the specified output file.
 
-### Generate Match Results Module (WIP)
+### Match Results Generator Module
 
-The Generate Match Results module generates the match results data for a season.
+The Match Results Generator module generates the match results dataset for a season, from which the Elo ratings are calculated. This is located in data/processed-data.
+
+#### Class JSONProcessor
+
+The Match Results Generator module includes a JSON Processor module, which is a customisable and reusable solution for processing large amounts of JSON files located in the same directory. This module can be used for processing JSON data in other projects, making it a valuable addition to your toolkit.
 
 ## Author
 
