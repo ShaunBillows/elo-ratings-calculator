@@ -7,6 +7,9 @@ from scipy.stats import linregress
 from matplotlib.lines import Line2D
 
 def plot_elo_bookies_scatter(csv_file, output_file, title):
+    """
+    This function reads data from a csv file and calculates the scatter plot data points for a season of matches. It then creates four subplots using matplotlib, each of which shows the Elo probabilities (x-axis) compared to the bookies probabilities (y-axis) for home wins, home losses, away wins and away losses. Finally, it saves the graph to an output file.
+    """
     # Read data for matches in a season from a csv file
     df = pd.read_csv(csv_file)
     matches = df.to_dict('records')
