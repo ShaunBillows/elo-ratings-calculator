@@ -106,11 +106,15 @@ Initializes the logger with specified log file name and level.
 
 - A logger instance that logs to both file and console.
 
-### Grapher Module (WIP)
+### Grapher Module
 
-The Logger module provides logging functionality for the project.
+A module that provides visual representations of data.
 
-- ##### Method: plot_elo_bookies_scatter
+#### Class Grapher
+
+This class contains the following methods:
+
+##### Method: plot_elo_bookies_scatter
 
 The function reads the data from a match results csv file and calculates a scatter plot of Elo vs bookmakers probabilities. It then creates four subplots, each with the Elo rating on the x-axis and the bookies probabilities on the y-axis. The subplots are split into Home Wins, Home Losses, Away Wins, and Away Losses. It also adds a legend, x and y labels, and a y=x profit line to each subplot. Finally, the graph is saved to the specified output file.
 
