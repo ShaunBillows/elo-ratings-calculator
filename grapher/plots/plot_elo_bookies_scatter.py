@@ -6,13 +6,21 @@ import matplotlib.patches as mpatches
 from scipy.stats import linregress
 from matplotlib.lines import Line2D
 
-def plot_elo_bookies_scatter(csv_file, output_file, title):
+def plot_elo_bookies_scatter(dataframe, title, show, output_file):
     """
-    This function reads data from a csv file and calculates the scatter plot data points for a season of matches. It then creates four subplots using matplotlib, each of which shows the Elo probabilities (x-axis) compared to the bookies probabilities (y-axis) for home wins, home losses, away wins and away losses. Finally, it saves the graph to an output file.
+    This function creates four subplots visualising the comparison between Elo probabilities and bookmaker probabilities for home wins, home losses, away wins, and away losses in a given season.
+    
+    Args:
+        - dataframe (pd.DataFrame): A pandas DataFrame containing the processed match results data for a season.
+        - title (str, optional): A title to display on the plot. If not provided, the plot will be displayed without a title.
+        - show (bool, optional): If True, the plot will be displayed. If False, the plot will be saved to a file.
+        - output_file (str, optional): If `show` is False, the file path where the plot will be saved.
+
+    # TODO: make the last n games a parameter
+    # TODO: make profit line and linear regression line optional parameters 
     """
     # Read data for matches in a season from a csv file
-    df = pd.read_csv(csv_file)
-    matches = df.to_dict('records')
+    matches = dataframe.to_dict('records')
 
     # initialise coordinate lists 
     home_win_elo_probability = []
@@ -40,7 +48,8 @@ def plot_elo_bookies_scatter(csv_file, output_file, title):
     # Create four subplots
     fig, axes = plt.subplots(2, 2)
     # Add a title
-    fig.suptitle(f'{title} Premier League')
+    if title:
+        fig.suptitle(title)
     # Create home wins subplot
     axes[0, 0].scatter(x=home_win_elo_probability, y=home_win_bookies_probability, marker='+', c='green', s=20)
     axes[0, 0].set_title('Home')
@@ -81,9 +90,12 @@ def plot_elo_bookies_scatter(csv_file, output_file, title):
 
     plt.tight_layout()
 
-    plt.savefig(output_file)
-    logging.info(f'Elo vs bookies probabilities scatter graph has been created saved to {output_file}')
+    # save the figure
+    if output_file:
+        plt.savefig(output_file)
+        logging.info(f'Elo vs bookies probabilities scatter graph has been created saved to {output_file}')
 
-    # opens the graphs
-    # plt.show()
-    # plt.close()
+    # open the figure 
+    if show:
+        plt.show()
+        plt.close()

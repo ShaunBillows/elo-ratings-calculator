@@ -82,25 +82,30 @@ if __name__ == "__main__":
 
     """ Section 4: Scatter plot Elo probability vs bookmakers probability (WIP)"""
 
-    # Set up input and output file paths
-    title_19 = '19-20'
+    # # Set up input and output file paths
+    title_19 = '19-20 Premier League'
     csv_file_20_21 = './data/results/elo-ratings/19-20/match-data/index.csv'
     output_file_20_21 = './data/results/elo-ratings/19-20/match-data/elo-vs-bookies-probabilities-19-20.png'
-    title_20 = '20-21'
+    title_20 = '20-21 Premier League'
     csv_file_19_20 = './data/results/elo-ratings/20-21/match-data/index.csv'
     output_file_19_20 = './data/results/elo-ratings/20-21/match-data/elo-vs-bookies-probabilities-20-21.png'
-    title_21 = '21-22'
+    title_21 = '21-22 Premier League'
     csv_file_21_22 = './data/results/elo-ratings/21-22/match-data/index.csv'
     output_file_21_22 = './data/results/elo-ratings/21-22/match-data/elo-vs-bookies-probabilities-21-22.png'
-    title_22 = '22-23'
+    title_22 = '22-23 Premier League'
     csv_file_22_23 = './data/results/elo-ratings/22-23/match-data/index.csv'
     output_file_22_23 = './data/results/elo-ratings/22-23/match-data/elo-vs-bookies-probabilities-22-23.png'
 
     # # initialise an instance of the Grapher class
     grapher = Grapher()
 
-    # Create scatter graphs for Elo vs bookmakers probabilities
-    grapher.plot_elo_bookies_scatter(csv_file=csv_file_19_20, output_file=output_file_19_20, title=title_19)
-    grapher.plot_elo_bookies_scatter(csv_file=csv_file_20_21, output_file=output_file_20_21, title=title_20)
-    grapher.plot_elo_bookies_scatter(csv_file=csv_file_21_22, output_file=output_file_21_22, title=title_21)
-    grapher.plot_elo_bookies_scatter(csv_file=csv_file_22_23, output_file=output_file_22_23, title=title_22)
+    # Create scatter graphs for Elo vs bookmakers probabilities 
+    grapher.get_data_from_csv(csv_file_19_20)
+    grapher.plot_elo_bookies_scatter(output_file=output_file_19_20, title=title_19, show=False)
+    grapher.get_data_from_csv(csv_file_20_21)
+    grapher.plot_elo_bookies_scatter(output_file=output_file_20_21, title=title_20, show=False)
+    grapher.get_data_from_csv(csv_file_21_22)
+    grapher.plot_elo_bookies_scatter(output_file=output_file_21_22, title=title_21, show=False)
+    grapher.get_data_from_csv(csv_file_22_23)
+    grapher.plot_elo_bookies_scatter(output_file=output_file_22_23, title=title_22, show=False)
+    # Note: there is currently a bug causing all the graphs display if only the last 'show' is set to True
