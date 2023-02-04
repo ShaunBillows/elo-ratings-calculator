@@ -1,4 +1,4 @@
-import logging
+from logger import Logger
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -93,7 +93,7 @@ def plot_elo_bookies_scatter(dataframe, title, show, output_file):
     # save the figure
     if output_file:
         plt.savefig(output_file)
-        logging.info(f'Elo vs bookies probabilities scatter graph has been created saved to {output_file}')
+        Logger().logger.info(f'Elo vs bookies probabilities scatter graph has been created saved to {output_file}')
 
     # open the figure 
     if show:
