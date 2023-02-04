@@ -1,5 +1,6 @@
 import pandas as pd
 import datetime
+from error_handler import ErrorHandler
 from logger import Logger
 
 class EloCalculator:
@@ -21,6 +22,7 @@ class EloCalculator:
     """
 
     def __init__(self):
+        self.error_handler = ErrorHandler(log_destination='file')
         self.logger = Logger().logger
 
     def calculate_individual_elo_ratings(self, home_score: int, away_score: int, home_elo: int, away_elo: int):
@@ -87,7 +89,7 @@ class EloCalculator:
         # if the number of weeks specified is greater than the total number of weeks in the season,
         # prompt the user to specify a valid number of weeks
         elif weeks > nb_weeks_in_season:
-            self.logger.error(f"Please specify a valid number of weeks (up to {nb_weeks_in_season})")
+            self.error_handler.log_error(f"Please specify a valid number of weeks (up to {nb_weeks_in_season})")
             return
         else:
             # calculate number of matches to be taken into account 
@@ -134,9 +136,9 @@ class EloCalculator:
             self.logger.info(f'Elo ratings for the season have been calculated and saved to {output_dir}')
 
         except FileNotFoundError as e:
-            self.logger.error(f'File not found: {e}')
+            self.error_handler.log_error(f'File not found: {e}')
         except Exception as e:
-            self.logger.error(f'An error occurred: {e}')
+            self.error_handler.log_error(f'An error occurred: {e}')
 
     def calculate_elo_ratings_for_each_match(self, csv_file:str, output_file:str):
         """
@@ -150,7 +152,7 @@ class EloCalculator:
         try:
             df = pd.read_csv(csv_file, na_values=["N/A", "-", "?"])
         except FileNotFoundError:
-            self.logger.error(f'The file {csv_file} could not be found')
+            self.error_handler.log_error(f'The file {csv_file} could not be found')
             return
         matches = df.to_dict('records')
         # Initialize Elo ratings for all teams
@@ -195,15 +197,11 @@ class EloCalculator:
                 new_row = pd.DataFrame({'home-name':home_name,'away-name':away_name,'home-elo':home_new_elo,'away-elo':away_new_elo,'home-win-odds':home_odds_avg,'draw-odds':draw_odds_avg,'away-win-odds':away_odds_avg,'home-result':home_result,'away-result':away_result,'match-date':match_date, 'epoch_time': epoch_time, 'home-win-elo':home_win_elo,'draw-elo':draw_elo,'away-win-elo':away_win_elo, 'home_win_elo_bookies_draw_odds':home_win_elo_bookies_draw_odds, 'away_win_elo_bookies_draw_odds':away_win_elo_bookies_draw_odds, 'draw_elo_bookies_draw_odds':draw_elo_bookies_draw_odds }, index=[0])
                 results_df = pd.concat([results_df, new_row], ignore_index=True)
             except KeyError as e:
-                self.logger.error(f'Error when accessing match data: {e}')
+                self.error_handler.log_error(f'Error when accessing match data: {e}')
                 return
         # Save the results as a csv file
         try:
             results_df.to_csv(output_file, index=False)
             self.logger.info(f'Elo ratings for matches in the season have been calculated and saved to {output_file}')
         except IOError:
-            print("Error: The directory specified in 'output_file' does not exist. Please specify a valid directory.")
-
-
-
- 
+            self.error_handler.log_error(f"The directory specified in {output_file} does not exist. Please specify a valid directory.")

@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 from logger import Logger
+from error_handler import ErrorHandler
 
 class JSONProcessor:
     """
@@ -24,6 +25,7 @@ class JSONProcessor:
         self.csv_file = csv_file
         self.results = []
         self.logger = Logger().logger
+        self.error_handler = ErrorHandler(log_destination='file')
     
     def process_json_files(self, process_json_callback):
         """
@@ -37,7 +39,7 @@ class JSONProcessor:
         """
 
         if not os.path.exists(self.folder_path):
-            self.logger.error(f"The folder path {self.folder_path} does not exist")
+            self.error_handler.log_error(f"The folder path {self.folder_path} does not exist")
             return
         for file_name in sorted(os.listdir(self.folder_path)):
             if file_name.endswith(".json"):
@@ -47,7 +49,7 @@ class JSONProcessor:
                         data = pd.read_json(file_path)
                         process_json_callback(data)
                 except Exception as e:
-                    self.logger.error(f"An error occurred while reading file {file_name}: {str(e)}")
+                    self.error_handler.log_error(f"An error occurred while reading file {file_name}: {str(e)}")
 
     def process_json_callback(self, data):
         """
@@ -85,7 +87,7 @@ class JSONProcessor:
                     'date-start-timestamp': result['date-start-timestamp']
                 })
             except KeyError as e:
-                self.logger.error(f"An error occurred while processing game {i}: {str(e)}")
+                self.error_handler.log_error(f"An error occurred while processing game {i}: {str(e)}")
    
     def save_to_csv(self):
         """
@@ -94,14 +96,14 @@ class JSONProcessor:
         """
 
         if not self.results:
-            self.logger.error("No results to save to CSV file")
+            self.error_handler.log_error("No results to save to CSV file")
             return
         try:
             df = pd.DataFrame(self.results)
             df.to_csv(self.csv_file, index=False)
             self.logger.info(f'Elo ratings for matches in the 19-20 season have been calculated and saved to {self.csv_file}')
         except IOError as e:
-            self.logger.error(f"An error occurred while creating the CSV file: {str(e)}")
+            self.error_handler.log_error(f"An error occurred while creating the CSV file: {str(e)}")
 
     def generate_match_results_csv(self):
         self.process_json_files(self.process_json_callback)

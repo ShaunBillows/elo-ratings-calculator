@@ -1,6 +1,6 @@
 from .plots import plot_elo_bookies_scatter
-from logger import Logger
 import pandas as pd
+from error_handler import ErrorHandler
 
 class Grapher:
     """
@@ -17,7 +17,7 @@ class Grapher:
     """
     def __init__(self):
         self.dataframe = []
-        self.logger = Logger().logger
+        self.error_handler = ErrorHandler(log_destination='file')
 
     def get_data_from_sql(self, database, query):
         # TODO
@@ -25,16 +25,16 @@ class Grapher:
 
     def get_data_from_csv(self, csv_file):
         if not csv_file.endswith('.csv'):
-            self.logger.error(f'{csv_file} is not a .csv file')
+            self.error_handler.log_error(f'{csv_file} is not a .csv file')
             return
 
         try:
             df = pd.read_csv(csv_file, na_values=["N/A", "-", "?"])
             self.dataframe = df
         except FileNotFoundError:
-            self.logger.error(f'The file {csv_file} could not be found')
+            self.error_handler.log_error(f'The file {csv_file} could not be found')
         except Exception as e:
-            self.logger.error(f'An error occurred while reading the file: {e}')
+            self.error_handler.log_error(f'An error occurred while reading the file: {e}')
 
     def plot_elo_bookies_scatter(self, csv_file=None, output_file=None, title=None, show=False):
         """
@@ -50,9 +50,11 @@ class Grapher:
             Exception: Raises an error if the data source is not provided or an error occurs while plotting the data. The error message is logged by the logger class.
         """
         if not isinstance(self.dataframe, pd.DataFrame) or self.dataframe.empty:
-            self.logger.error("No data to plot. Please provide the data source through csv_file argument or call get_data_from_csv method.")
+            self.error_handler.log_error("No data to plot. Please provide the data source through csv_file argument or call get_data_from_csv method.")
             return
         try:
             plot_elo_bookies_scatter(dataframe=self.dataframe, output_file=output_file, title=title, show=show)
         except Exception as e:
-            self.logger.error(f'An error occurred while plotting the data: {str(e)}')
+            self.error_handler.log_error(f'An error occurred while plotting the data: {str(e)}')
+
+
