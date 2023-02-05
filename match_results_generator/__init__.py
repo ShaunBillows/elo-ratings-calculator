@@ -1,1 +1,1 @@
-from match_results_generator.JSONProcessor import JSONProcessor
+from match_results_generator.json_processor import JSONProcessor
