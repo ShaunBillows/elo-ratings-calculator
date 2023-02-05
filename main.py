@@ -6,106 +6,76 @@ if __name__ == "__main__":
 
     """ Section 1: Process raw data """
     
-    # # # Set up input and output file paths
-    # json_file_20_21 = './data/raw-data/20-21'
-    # output_dir_20_21 = './data/processed-data/20-21.csv'
-    # json_file_19_20 = './data/raw-data/19-20'
-    # output_dir_19_20 = './data/processed-data/19-20.csv'
-    # json_file_21_22 = './data/raw-data/21-22'
-    # output_dir_21_22 = './data/processed-data/21-22.csv'
-    # json_file_22_23 = './data/raw-data/22-23'
-    # output_dir_22_23 = './data/processed-data/22-23.csv'
+    # # List of seasons and corresponding raw and processed data paths
+    # seasons = [
+    #     ('./data/raw-data/20-21', './data/processed-data/20-21.csv'),
+    #     ('./data/raw-data/19-20', './data/processed-data/19-20.csv'),
+    #     ('./data/raw-data/21-22', './data/processed-data/21-22.csv'),
+    #     ('./data/raw-data/22-23', './data/processed-data/22-23.csv')
+    # ]
 
-    # # Process raw data for 19-20 season
-    # processor = JSONProcessor(json_file_20_21, output_dir_20_21)
-    # processor.generate_match_results_csv()
-    # # Process raw data for 19-20 season
-    # processor = JSONProcessor(json_file_19_20, output_dir_19_20)
-    # processor.generate_match_results_csv()
-    # # Process raw data for 19-20 season
-    # processor = JSONProcessor(json_file_21_22, output_dir_21_22)
-    # processor.generate_match_results_csv()
-    # # Process raw data for 19-20 season
-    # processor = JSONProcessor(json_file_22_23, output_dir_22_23)
-    # processor.generate_match_results_csv()
+    # # Process raw data for each season
+    # for raw_data, processed_data in seasons:
+    #     processor = JSONProcessor(raw_data, processed_data)
+    #     processor.generate_match_results_csv()
 
-    """ Section 2: Calculate Elo ratings for each week """
-
-    # # Set up input and output file paths
-    # csv_file_20_21 = './data/processed-data/20-21.csv'
-    # output_dir_20_21 = './data/results/elo-ratings/20-21/week-data'
-    # csv_file_19_20 = './data/processed-data/19-20.csv'
-    # output_dir_19_20 = './data/results/elo-ratings/19-20/week-data'
-    # csv_file_21_22 = './data/processed-data/21-22.csv'
-    # output_dir_21_22 = './data/results/elo-ratings/21-22/week-data'
-    # csv_file_22_23 = './data/processed-data/22-23.csv'
-    # output_dir_22_23 = './data/results/elo-ratings/22-23/week-data'
-
-    # # # Number of weeks in a season (0 - 39 weeks)
-    # nb_weeks_in_season = 39
-
-    # # initialise an instance of the EloCalculator class
-    # elo_calculator = EloCalculator()
+    """ Section 2: Calculate Elo ratings for each season """
     
-    # # Calculate Elo ratings for 20-21 season
-    # elo_calculator.calculate_elo_ratings_for_each_week(csv_file_20_21, output_dir_20_21, nb_weeks_in_season)
-    # # # Calculate Elo ratings for 19-20 season
-    # elo_calculator.calculate_elo_ratings_for_each_week(csv_file_19_20, output_dir_19_20, nb_weeks_in_season)
-    # # # Calculate Elo ratings for 21-22 season
-    # elo_calculator.calculate_elo_ratings_for_each_week(csv_file_21_22, output_dir_21_22, nb_weeks_in_season)
-    # # # Calculate Elo ratings for 22-23 season
-    # elo_calculator.calculate_elo_ratings_for_each_week(csv_file_22_23, output_dir_22_23, nb_weeks_in_season)
+    # # Input File paths
+    # file_paths = {
+    #     "20-21": "./data/processed-data/20-21.csv",
+    #     "19-20": "./data/processed-data/19-20.csv",
+    #     "21-22": "./data/processed-data/21-22.csv",
+    #     "22-23": "./data/processed-data/22-23.csv"
+    # }
 
-    """ Section 3: Calculate Elo ratings for each match """
+    # # Number of weeks to calculate Elo ratings for (valid range: 0 to 39)
+    # target_week = 39
 
-    # # # Set up input and output file paths
-    # csv_file_20_21 = './data/processed-data/20-21.csv'
-    # output_file_20_21 = './data/results/elo-ratings/20-21/match-data/index.csv'
-    # csv_file_19_20 = './data/processed-data/19-20.csv'
-    # output_file_19_20 = './data/results/elo-ratings/19-20/match-data/index.csv'
-    # csv_file_21_22 = './data/processed-data/21-22.csv'
-    # output_file_21_22 = './data/results/elo-ratings/21-22/match-data/index.csv'
-    # csv_file_22_23 = './data/processed-data/22-23.csv'
-    # output_file_22_23 = './data/results/elo-ratings/22-23/match-data/index.csv'
+    # # Output Directories and Files for Elo Ratings by Match and Week
+    # output_dirs = {
+    #     "20-21": {
+    #         "week-data": "./data/results/elo-ratings/20-21/week-data",
+    #         "match-data": "./data/results/elo-ratings/20-21/match-data/index.csv"
+    #     },
+    #     "19-20": {
+    #         "week-data": "./data/results/elo-ratings/19-20/week-data",
+    #         "match-data": "./data/results/elo-ratings/19-20/match-data/index.csv"
+    #     },
+    #     "21-22": {
+    #         "week-data": "./data/results/elo-ratings/21-22/week-data",
+    #         "match-data": "./data/results/elo-ratings/21-22/match-data/index.csv"
+    #     },
+    #     "22-23": {
+    #         "week-data": "./data/results/elo-ratings/22-23/week-data",
+    #         "match-data": "./data/results/elo-ratings/22-23/match-data/index.csv"
+    #     }
+    # }
 
-    # # # initialise an instance of the EloCalculator class
-    # elo_calculator = EloCalculator()
+    # for season, file_path in file_paths.items():
+    #     # Calculate Elo ratings for each season
+    #     elo_calculator = EloCalculator("csv", file_path)
+    #     elo_calculator.calculate_elo_ratings_for_each_match("csv", output_dirs[season]["match-data"])
+    #     elo_calculator.calculate_elo_ratings_for_each_week("csv", output_dirs[season]["week-data"], target_week)
 
-    # # Calculate Elo ratings for 20-21 season
-    # elo_calculator.calculate_elo_ratings_for_each_match(csv_file_20_21, output_file_20_21)
-    # # Calculate Elo ratings for 19-20 season
-    # elo_calculator.calculate_elo_ratings_for_each_match(csv_file_19_20, output_file_19_20)
-    # # Calculate Elo ratings for 21-22 season
-    # elo_calculator.calculate_elo_ratings_for_each_match(csv_file_21_22, output_file_21_22)
-    # # # Calculate Elo ratings for 22-23 season
-    # elo_calculator.calculate_elo_ratings_for_each_match(csv_file_22_23, output_file_22_23)
+    """ Section 3: Scatter plot Elo probability vs bookmakers probability """
 
-    """ Section 4: Scatter plot Elo probability vs bookmakers probability (WIP)"""
+    # Set up paths for input and output files
+    title_seasons = [('19-20 Premier League', '19-20'), 
+                    ('20-21 Premier League', '20-21'), 
+                    ('21-22 Premier League', '21-22'), 
+                    ('22-23 Premier League', '22-23')]
+    
+    data_dir = './data/results/elo-ratings/{}/match-data/'
+    csv_files = [data_dir.format(season) + 'index.csv' for _, season in title_seasons]
+    output_files = [data_dir.format(season) + 'elo-vs-bookies-probabilities-{}.png'.format(season) for _, season in title_seasons]
 
-    # # Set up input and output file paths
-    title_19 = '19-20 Premier League'
-    csv_file_20_21 = './data/results/elo-ratings/19-20/match-data/index.csv'
-    output_file_19_20 = './data/results/elo-ratings/19-20/match-data/elo-vs-bookies-probabilities-19-20.png'
-    title_20 = '20-21 Premier League'
-    csv_file_19_20 = './data/results/elo-ratings/20-21/match-data/index.csv'
-    output_file_20_21 = './data/results/elo-ratings/20-21/match-data/elo-vs-bookies-probabilities-20-21.png'
-    title_21 = '21-22 Premier League'
-    csv_file_21_22 = './data/results/elo-ratings/21-22/match-data/index.csv'
-    output_file_21_22 = './data/results/elo-ratings/21-22/match-data/elo-vs-bookies-probabilities-21-22.png'
-    title_22 = '22-23 Premier League'
-    csv_file_22_23 = './data/results/elo-ratings/22-23/match-data/index.csv'
-    output_file_22_23 = './data/results/elo-ratings/22-23/match-data/elo-vs-bookies-probabilities-22-23.png'
-
-    # # initialise an instance of the Grapher class
+    # Initialise an instance of the Grapher class
     grapher = Grapher()
 
-    # Create scatter graphs for Elo vs bookmakers probabilities 
-    grapher.get_data_from_csv(csv_file_19_20)
-    grapher.plot_elo_bookies_scatter(output_file=output_file_19_20, title=title_19, show=False)
-    grapher.get_data_from_csv(csv_file_20_21)
-    grapher.plot_elo_bookies_scatter(output_file=output_file_20_21, title=title_20, show=False)
-    grapher.get_data_from_csv(csv_file_21_22)
-    grapher.plot_elo_bookies_scatter(output_file=output_file_21_22, title=title_21, show=False)
-    grapher.get_data_from_csv(csv_file_22_23)
-    grapher.plot_elo_bookies_scatter(output_file=output_file_22_23, title=title_22, show=False)
-    # Note: there is currently a bug causing all the graphs display if only the last 'show' is set to True
+    # Create scatter graphs for Elo vs bookmakers probabilities
+    for title, csv_file, output_file in zip(title_seasons, csv_files, output_files):
+        grapher.get_data_from_csv(csv_file)
+        grapher.plot_elo_bookies_scatter(output_file=output_file, title=title[0], show=False)
+
+    # Note: there is currently a bug causing all the graphs to display if only the last 'show' is set to True
